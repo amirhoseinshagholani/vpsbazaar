@@ -6,8 +6,8 @@ import Image from "next/image";
 const Header = () => {
     return (
         <>
-            <header>
-                <nav className="flex justify-between h-10">
+            <header className="p-5 ">
+                <nav className="flex justify-between h-10 ">
                     <ul className="flex pt-2">
                         {/* <li className="">
                             <div className="bg-white flex w-28 justify-center h-full rounded-t-2xl">
@@ -16,35 +16,35 @@ const Header = () => {
                         </li> */}
                         <li>
                             <Link href="#">
-                                <div className="bg-white flex w-28 text-nowrap justify-center h-full vazirfont-regular text-black rounded-t-2xl">
+                                <div className="text-white flex w-28 text-nowrap justify-center h-full vazirfont-bold  rounded-t-2xl">
                                     صفحه اصلی
                                 </div>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <div className="flex w-28 text-nowrap justify-center h-full vazirfont-regular text-white rounded-t-2xl">
+                                <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
                                     سرویس ها
                                 </div>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <div className="flex w-28 text-nowrap justify-center h-full vazirfont-regular text-white rounded-t-2xl">
+                                <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
                                     مقالات
                                 </div>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <div className="flex w-28 text-nowrap justify-center h-full vazirfont-regular text-white rounded-t-2xl">
+                                <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
                                     درباره ما
                                 </div>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <div className="flex w-28 text-nowrap justify-center h-full vazirfont-regular text-white rounded-t-2xl">
+                                <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
                                     تماس با ما
                                 </div>
                             </Link>
