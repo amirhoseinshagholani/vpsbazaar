@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "@/public/css/font.css";
+import "@/public/css/style.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html dir="rtl" lang="fa">
       <body className="bg-[#de2d9c]">
-        <div className="container mx-auto">
+        <div className="">
           <Header />
           {children}
           <Footer />
