@@ -3,8 +3,7 @@ import Image from "next/image";
 const LandingContent = () => {
     return (
         <>
-            <div id="" className="bg-white h-full mr-7 rounded-r-3xl mt-10">
-
+            <div id="" className="bg-white h-full mr-10 rounded-r-3xl mt-10">
                 <section className="container mx-auto">
                     <div className="p-10 grid grid-cols-12">
                         <div className="col-span-6 mt-10">
@@ -30,8 +29,6 @@ const LandingContent = () => {
                     </div>
 
                     <div className="p-10">
-
-
                         <div className="text-center mb-5">
                             <div className="inline-flex items-center gap-2 px-6 py-4 bg-blue-100 rounded-full shadow-lg fluffy-animation">
                                 <span className="text-4xl">☁️</span>
@@ -131,8 +128,6 @@ const LandingContent = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </section>
             </div>
         </>

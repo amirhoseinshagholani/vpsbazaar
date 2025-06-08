@@ -1,0 +1,136 @@
+import formatNumber from "@/functions/formatNumber";
+import CpuSvg from "@/public/svg/cpuSvg";
+import RamSvg from "@/public/svg/ramSvg";
+import SsdSvg from "@/public/svg/ssdSvg";
+import TrafficSvg from "@/public/svg/trafficSvg";
+
+const Services = () => {
+    return (
+        <>
+            <div className="bg-white w-full h-screen p-10 rounded-t-3xl">
+                <div className="container mx-auto">
+                    <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی در VPS Bazaar</h1>
+                    <div className="vazirfont-medium text-lg pt-3 md:text-justify text-gray-700 mb-10">
+                        <p className="mt-3">
+                            در VPS Bazaar ما سه نوع سرویس سرور مجازی ارائه می‌کنیم که برای نیازهای متنوع کاربران، از حرفه‌ ای ‌ترین توسعه‌ دهنده ‌ها تا صاحبان کسب‌ و کارهای نوپا، طراحی شده‌اند. هرکدام از این پلن‌ها، قابلیت ارتقا در تمامی بخش‌ های سخت‌ افزاری و نرم ‌افزاری را دارند، بنابراین بدون نگرانی از محدودیت، می‌توانید منابع خود را بر اساس رشد پروژه‌ تان تنظیم کنید.
+                        </p>
+                        <p className="mt-3">
+                            یکی از مزایای منحصر به ‌فرد سرویس‌های ما، نحوه محاسبه ترافیک مصرفی است؛ ترافیک تنها بر اساس دانلود محاسبه می‌شود و آپلود برای شما کاملاً رایگان خواهد بود. این یعنی کنترل بیشتر روی هزینه ‌ها، مخصوصاً برای کسانی که دیتای زیادی آپلود می‌کنند.
+                        </p>
+                        <p className="mt-3">
+                            ما در VPS Bazaar تلاش کرده ‌ایم تجربه ‌ای ساده، سریع و قابل اعتماد از خرید سرور مجازی برای شما فراهم کنیم، با پشتیبانی اختصاصی و سرورهایی پرسرعت که همیشه در دسترس شما هستند.
+                        </p>
+                    </div>
+
+                    <div className="md:mt-20">
+                        <div className="text-center mb-5">
+                            <div className="inline-flex items-center gap-2 px-6 py-4 bg-blue-100 rounded-full shadow-lg fluffy-animation">
+                                <span className="text-4xl">☁️</span>
+                                <h2 className="text-2xl vazirfont-bold text-blue-800">
+                                    خدمات ما در VPS Bazaar
+                                </h2>
+                            </div>
+                            <div className="grid grid-cols-12 mt-10 g-3">
+                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
+                                    <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
+                                        نام سرویس: Flex
+                                    </h3>
+                                    <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><CpuSvg /></span>
+                                        <span>CPU : 1 core</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><RamSvg /></span>
+                                        <span>RAM : 1G</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><SsdSvg /></span>
+                                        <span>Disk : 25G</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><TrafficSvg /></span>
+                                        <span>Traffic : 100G</span>
+                                    </div>
+                                    <div dir="rtl" className="mx-auto vazirfont-bold text-lg text-black mt-5">
+                                        <span className="text-gray-700">{formatNumber(225000)}</span><span className="text-gray-700"> تومان </span>
+                                    </div>
+                                    <div className="mt-4 vazirfont-medium text-gray-500">
+                                        <hr />
+                                    </div>
+                                    <div className="mt-3 gap-2  vazirfont-medium text-gray-500">
+                                        
+                                        <div className="">پشتیبانی رایگان</div>
+                                    </div>
+                                </div>
+                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
+                                    <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
+                                        نام سرویس: Solo
+                                    </h3>
+                                    <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><CpuSvg /></span>
+                                        <span>CPU : 1 core</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><RamSvg /></span>
+                                        <span>RAM : 2G</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><SsdSvg /></span>
+                                        <span>Disk : 30G</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><TrafficSvg /></span>
+                                        <span>Traffic : 100G</span>
+                                    </div>
+                                    <div dir="rtl" className="mx-auto vazirfont-bold text-lg text-black mt-5">
+                                        <span className="text-gray-700">{formatNumber(225000)}</span><span className="text-gray-700"> تومان </span>
+                                    </div>
+                                    <div className="mt-4 vazirfont-medium text-gray-500">
+                                        <hr />
+                                    </div>
+                                    <div className="mt-3 gap-2  vazirfont-medium text-gray-500">
+                                        
+                                        <div className="">پشتیبانی رایگان</div>
+                                    </div>
+                                </div>
+                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
+                                    <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
+                                        نام سرویس: Pro
+                                    </h3>
+                                    <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><CpuSvg /></span>
+                                        <span>CPU : 2 core</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><RamSvg /></span>
+                                        <span>RAM : 4G</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><SsdSvg /></span>
+                                        <span>Disk : 40G</span>
+                                    </div>
+                                    <div className="mt-3 flex gap-2 vazirfont-medium text-gray-500">
+                                        <span><TrafficSvg /></span>
+                                        <span>Traffic : 100G</span>
+                                    </div>
+                                    <div dir="rtl" className="mx-auto vazirfont-bold text-lg text-black mt-5">
+                                        <span className="text-gray-700">{formatNumber(225000)}</span><span className="text-gray-700"> تومان </span>
+                                    </div>
+                                    <div className="mt-4 vazirfont-medium text-gray-500">
+                                        <hr />
+                                    </div>
+                                    <div className="mt-3 gap-2  vazirfont-medium text-gray-500">
+                                        
+                                        <div className="">پشتیبانی رایگان</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Services;

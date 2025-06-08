@@ -10,20 +10,15 @@ const Header = () => {
                 <div className="container mx-auto">
                     <nav className="flex justify-between h-10 ">
                         <ul className="flex pt-2">
-                            {/* <li className="">
-                            <div className="bg-white flex w-28 justify-center h-full rounded-t-2xl">
-                                logo
-                            </div>
-                        </li> */}
                             <li>
-                                <Link href="#">
+                                <Link href="/">
                                     <div className="text-white flex w-28 text-nowrap justify-center h-full vazirfont-bold  rounded-t-2xl">
                                         صفحه اصلی
                                     </div>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/services">
                                     <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
                                         سرویس ها
                                     </div>
@@ -36,6 +31,13 @@ const Header = () => {
                                     </div>
                                 </Link>
                             </li>
+                            {/* <li>
+                                <Link href="#">
+                                    <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
+                                        سوالات متداول
+                                    </div>
+                                </Link>
+                            </li> */}
                             <li>
                                 <Link href="#">
                                     <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
