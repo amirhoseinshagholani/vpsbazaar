@@ -6,24 +6,24 @@ import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 
-const Services = () => {
+const Mikrotik = () => {
     return (
         <>
             <div className="bg-white w-full h-full p-10 rounded-3xl">
                 <div className="text-sm vazirfont-regular text-gray-600">
-                    <span className="m-1">خانه</span>/<span className="m-1">سرویس ها</span>
+                    <span className="m-1">خانه</span>/<span className="m-1">سرویس ها</span>/<span className="m-1">سرور مجازی میکروتیک</span>
                 </div>
                 <section className="container mx-auto mt-10">
-                    <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی در VPS Bazaar</h1>
+                    <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی میکروتیک (MikroTik VPS) با دسترسی کامل و پایداری بالا</h1>
                     <div className="vazirfont-medium text-lg pt-3 md:text-justify text-gray-700 mb-10">
                         <p className="mt-3">
-                            در VPS Bazaar ما سه نوع سرویس سرور مجازی ارائه می‌کنیم که برای نیازهای متنوع کاربران، از حرفه‌ ای ‌ترین توسعه‌ دهنده ‌ها تا صاحبان کسب‌ و کارهای نوپا، طراحی شده‌اند. هرکدام از این پلن‌ها، قابلیت ارتقا در تمامی بخش‌ های سخت‌ افزاری و نرم ‌افزاری را دارند، بنابراین بدون نگرانی از محدودیت، می‌توانید منابع خود را بر اساس رشد پروژه‌ تان تنظیم کنید.
+                            این سرویس‌ها برای آن دسته از کاربران حرفه‌ای، مدیران شبکه، ارائه‌دهندگان خدمات اینترنتی (ISPها) و علاقه‌مندان به تنظیمات پیشرفته‌ی شبکه در بستر میکروتیک فراهم شده‌اند تا بدون نیاز به سخت‌افزار فیزیکی، بتوانند یک روتربرد کامل در فضای ابری در اختیار داشته باشند.
                         </p>
                         <p className="mt-3">
-                            یکی از مزایای منحصر به ‌فرد سرویس‌های ما، نحوه محاسبه ترافیک مصرفی است؛ ترافیک تنها بر اساس دانلود محاسبه می‌شود و آپلود برای شما کاملاً رایگان خواهد بود. این یعنی کنترل بیشتر روی هزینه ‌ها، مخصوصاً برای کسانی که دیتای زیادی آپلود می‌کنند.
+                            با استفاده از MikroTik VPS شما می‌توانید تمام قابلیت‌های یک روتر واقعی، از جمله مدیریت روتینگ، VPN، فایروال، NAT، Queue، Load Balancing و غیره را در بستر یک سرور مجازی قدرتمند تجربه کنید. تمام سرورها با دسترسی کامل (Full Admin) ارائه می‌شوند و امکان مدیریت کامل از طریق Winbox، WebFig و SSH را دارند، بدون نیاز به سخت‌افزار خاص یا اتصال فیزیکی. این یعنی در هر نقطه‌ای از دنیا که باشید، فقط با چند کلیک به یک شبکه‌ی ابری حرفه‌ای متصل خواهید شد.
                         </p>
                         <p className="mt-3">
-                            ما در VPS Bazaar تلاش کرده ‌ایم تجربه ‌ای ساده، سریع و قابل اعتماد از خرید سرور مجازی برای شما فراهم کنیم، با پشتیبانی اختصاصی و سرورهایی پرسرعت که همیشه در دسترس شما هستند.
+                            زیرساخت پرسرعت، پایداری شبکه و منابع اختصاصی باعث شده تا بسیاری از متخصصان شبکه، این سرویس را برای آموزش، شبیه‌سازی، راه‌اندازی سرویس‌های VPN، مدیریت شبکه‌های چندسایته و حتی تنظیم تونل‌های پیشرفته ترجیح دهند. ترافیک آپلود کاملاً رایگان و محاسبه هزینه تنها بر اساس ترافیک دانلود، فضای مانور بیشتری در اختیار کاربران قرار می‌دهد، مخصوصاً برای کسانی که تبادل دیتا یا مانیتورینگ لحظه‌ای انجام می‌دهند.
                         </p>
                     </div>
 
@@ -39,8 +39,8 @@ const Services = () => {
 
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Flex
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2  text-nowrap">
+                                            نام سرویس: Flex mikrotik
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -72,8 +72,8 @@ const Services = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Solo
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2  text-nowrap">
+                                            نام سرویس: Solo mikrotik
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -105,8 +105,8 @@ const Services = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Pro
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
+                                            نام سرویس: Pro mikrotik
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -155,10 +155,10 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Flex
+                                            سرویس Flex mikrotik
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس Flex گزینه‌ای ایده‌آل برای کاربران تازه‌کار، دانشجویان و علاقه‌مندان به یادگیری سرورهای مجازی است. اگر به‌تازگی وارد دنیای VPS شده‌اید و به دنبال راهی مقرون‌به‌صرفه برای آزمون، یادگیری یا اجرای پروژه‌های سبک هستید، این سرویس دقیقاً برای شما طراحی شده. با منابع متعادل و قیمت مناسب، Flex بهترین نقطه‌ی شروع برای تجربه‌ی دنیای سرورهاست.
+                                            اگر در ابتدای مسیر یادگیری شبکه یا تنظیمات MikroTik هستید، سرویس Flex یک انتخاب اقتصادی و قابل اعتماد برای شماست. این پلن با منابع پایه و قیمت مقرون‌به‌صرفه، امکان اجرای نسخه کامل RouterOS را بدون نیاز به تجهیزات فیزیکی فراهم می‌کند. برای دانشجویان، کارآموزان، یا کسانی که می‌خواهند سناریوهای ساده مانند راه‌اندازی VPN یا تست NAT را تمرین کنند، Flex شروعی عالی و بی‌دردسر است. شما می‌توانید با دسترسی کامل به محیط میکروتیک، با خیال راحت یاد بگیرید، تنظیم کنید و تجربه کسب کنید.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -180,10 +180,11 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Solo
+                                            سرویس Solo mikrotik
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس solo مناسب بیزینس‌های سطح متوسط است که به منابع بیشتری نیاز دارند و می‌خواهند از قابلیت‌های کامل‌تر برای مدیریت کسب‌وکار آنلاین خود بهره ببرند. این سرویس برای مشاغلی که در حال رشد و گسترش هستند، انتخابی ایده‌آل محسوب می‌شود.
+                                            سرویس Solo برای کاربران حرفه‌ای‌تر یا مدیران شبکه‌ای طراحی شده که نیاز به منابع بیشتر و پایداری بالاتر دارند. اگر قصد اجرای چند سناریوی شبکه‌ای هم‌زمان، راه‌اندازی تونل‌های رمزنگاری‌شده، یا حتی مدیریت چند سایت از راه دور را دارید، این پلن با منابع بالاتر و عملکرد پایدارتر، گزینه‌ای مناسب برای شماست. Solo به شما این امکان را می‌دهد که تنظیمات پیچیده‌تری در محیط MikroTik پیاده‌سازی کنید، بدون نگرانی از کندی یا قطعی در عملکرد سرور.
+
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -198,10 +199,11 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Pro
+                                            سرویس Pro mikrotik
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس pro برای کاربران و کسب‌وکارهایی طراحی شده است که به منابع بیشتری نیاز دارند. این سرویس با منابع بهینه، پاسخگوی نیازهای کاربران حرفه‌ای است که مایلند به مدیریت وب‌سایت‌ها، نرم‌افزارها و اپلیکیشن‌های خود بپردازند، بدون نیاز به زیرساخت‌های پیچیده و سنگین.
+                                            برای متخصصان شبکه، ISPها یا شرکت‌هایی که به دنبال اجرای سناریوهای سنگین و مدیریت هم‌زمان چند شبکه یا زیرساخت هستند، سرویس Pro بهترین گزینه موجود است. این پلن با منابع قدرتمند و اتصال پایدار، امکان اجرای حرفه‌ای‌ترین تنظیمات را فراهم می‌کند. اگر نیاز به راه‌اندازی چندین تونل VPN، مانیتورینگ دائمی شبکه، تنظیمات پیچیده فایروال یا اعمال سیاست‌های دقیق مدیریت پهنای باند دارید، Pro پاسخی مطمئن به نیازهای شما خواهد بود. این سرویس، تجربه‌ای کامل از قدرت MikroTik در فضای ابری است.
+
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -220,4 +222,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default Mikrotik;

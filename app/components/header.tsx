@@ -18,7 +18,7 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services">
+                                <Link href="/vps">
                                     <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
                                         سرویس ها
                                     </div>
@@ -39,14 +39,14 @@ const Header = () => {
                                 </Link>
                             </li> */}
                             <li>
-                                <Link href="#">
+                                <Link href="/about_us">
                                     <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
                                         درباره ما
                                     </div>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/contact_us">
                                     <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl">
                                         تماس با ما
                                     </div>

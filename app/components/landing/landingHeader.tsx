@@ -26,7 +26,7 @@ const LandingHeader = () => {
                                 <span>ما اینجاییم تا رویای دیجیتال شما به واقعیت تبدیل شود</span>
                             </div>
                             <div className="mt-10 flex">
-                                <Link className="mx-auto" href="#services">
+                                <Link className="mx-auto" href="/vps">
                                     <span className="bg-white hover:bg-gray-200 text-black vazirfont-bold pr-5 pl-5 pt-2 pb-2 rounded-3xl">✔️ مشاهده سرویس ها</span>
                                 </Link>
                             </div>

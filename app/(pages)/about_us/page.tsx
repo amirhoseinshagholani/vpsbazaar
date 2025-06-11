@@ -6,29 +6,29 @@ import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 
-const Forex = () => {
+const About_us = () => {
     return (
         <>
             <div className="bg-white w-full h-full p-10 rounded-3xl">
-                <div className="text-sm vazirfont-regular text-gray-600 flex gap-2">
-                    <Link className="text-blue-600" href="/"><span>خانه</span></Link>/<Link className="text-blue-600" href="/vps"><span>سرور مجازی</span></Link>/<span>سرور مجازی فارکس</span>
+                <div className="text-sm vazirfont-regular text-gray-600">
+                    <span className="m-1">خانه</span>/<span className="m-1">درباره ما</span>
                 </div>
                 <section className="container mx-auto mt-10">
-                    <h1 className="vazirfont-bold text-2xl text-gray-800">
-                        سرور مجازی فارکس (Forex VPS) با پینگ پایین و اتصال پایدار
-                    </h1>
-                    <div className="vazirfont-medium text-lg pt-3 md:text-justify text-gray-700 mb-10">
-                        <p className="mt-3">
-                            اگر در بازار فارکس فعالیت می‌کنید، حتماً می‌دانید که هر ثانیه می‌تواند سرنوشت یک معامله را تغییر دهد. به همین دلیل، ما در VPS Bazaar سرورهای مجازی ویژه‌ای برای تریدرها فراهم کرده‌ایم که با کمترین پینگ، بالاترین سرعت و بیشترین پایداری، نیازهای شما را در بازارهای بین‌المللی برآورده می‌کنند. این سرورها به‌طور خاص برای اجرای ۲۴ ساعته نرم‌افزارهایی مانند MetaTrader و سایر ابزارهای معاملاتی بهینه شده‌اند تا بدون قطعی و تأخیر، معاملات خود را با آرامش کامل مدیریت کنید.
-                        </p>
-                        <p className="mt-3">
-                            ر طراحی این سرویس‌ها تلاش کرده‌ایم تجربه‌ای حرفه‌ای و بی‌دردسر برای تریدرها فراهم کنیم. سرورهای فارکس ما به بروکرهای معتبر جهانی دسترسی سریع و پایدار دارند و برای اجرای هم‌زمان چند حساب معاملاتی یا ربات‌های خودکار کاملاً مناسب هستند. از آن‌جا که در این سرورها، ترافیک تنها بر اساس دانلود محاسبه می‌شود و آپلود کاملاً رایگان است، کاربران می‌توانند با خیال راحت داده‌های معاملاتی خود را ارسال کنند، بدون اینکه نگران هزینه‌های اضافی باشند.
-                        </p>
-                        <p className="mt-3">
-                            سرورهای مجازی VPS Bazaar از لحاظ منابع سخت‌افزاری قابل ارتقاء هستند. شما می‌توانید در هر زمان و بدون نیاز به انتقال اطلاعات، پلن خود را ارتقاء دهید و منابع سرور را متناسب با رشد فعالیت‌هایتان افزایش دهید. برای کاربرانی که تازه وارد دنیای معاملات شده‌اند، پلن Flex انتخابی اقتصادی و قابل اعتماد است. کسانی که تجربه بیشتری دارند و به منابع پایدارتر نیاز دارند، می‌توانند از پلن Solo استفاده کنند. برای حرفه‌ای‌هایی که اجرای دقیق و بدون وقفه چندین حساب یا ربات را دنبال می‌کنند، پلن Pro بهترین گزینه است.
-                        </p>
+                    <h1 className="vazirfont-bold text-2xl text-gray-800">درباره ما - اهداف ما در VPS Bazaar</h1>
+                    <div className="vazirfont-medium text-lg pt-3 md:text-justify text-gray-700 mb-10 grid grid-cols-12">
+                        <div className="mt-3 col-span-8 mt-20">
+                            <p className="h-fit">
+                                ما در VPSBazaar گردهم آمده‌ایم تا فضایی دوستانه و حرفه‌ای برای کاربران و مشترکین خود ایجاد کنیم. وی پی اس بازار کار خود را از سال 1403 با هدف کمک به مشترکین در جهت تهیه سرورهای مجازی مطمئن و با کیفیت آغاز کرد.
+                            </p>
+                            <p className="h-fit mt-5">
+                                هدف ما از روز نخست، کمک به مشترکین در ارائه راه‌حل‌های زیرساختی مطمئن و ایجاد تجربه‌ای متفاوت در زمینه فروش سرورهای مجازی بوده است. ما متعهدیم که خدمات باکیفیت را با قیمت‌های مقرون‌به‌صرفه ارائه دهیم تا همه بتوانند به بهترین زیرساخت‌های مجازی دسترسی داشته باشند. فاز اول فعالیت ما، بر ارائه VPS‌های داخلی متمرکز بوده است؛ اما در فازهای آتی، برنامه داریم تا سرویس‌های بین‌المللی را نیز اضافه کنیم و نیازهای متنوع کاربرانمان را در سطحی گسترده‌تر پوشش دهیم. همچنین، به زودی سرورهای اختصاصی را نیز فراهم خواهیم کرد تا مشترکین بتوانند به منابع اختصاصی خود دسترسی پیدا کنند و از توان و امنیت بیشتر در پروژه‌های خود بهره‌مند شوند. در ادامه، با ارائه خدمات هاستینگ کامل‌تر در کنار شما خواهیم بود تا تمامی نیازهای میزبانی و زیرساختی شما را با کیفیتی ممتاز و پشتیبانی مداوم پاسخ دهیم. پشتیبانی ۲۴ ساعته و تضمین آپتایم ۹۹ درصدی از اولویت‌های اصلی ماست. همکاران ما به صورت شبانه‌روزی آماده خدمت‌رسانی هستند و تمامی تلاش خود را به کار می‌گیرند تا تجربه‌ای رضایت‌بخش و مطمئن را برای شما فراهم آورند. به VPSBazaar بپیوندید و تجربه‌ای حرفه‌ای، کارآمد و مطمئن از خدمات سرور مجازی و میزبانی وب را تجربه کنید
+                            </p>
+                        </div>
+                        <div className="col-span-4 flex h-fit">
+                            <Image className="items-center mx-auto" src="/img/about_us.webp" width={500} height={500} alt="About Us" />
+                        </div>
                     </div>
-
+{/* 
                     <div className="md:mt-20">
                         <div className="text-center mb-5">
                             <div className="inline-flex items-center gap-2 px-6 py-4 bg-blue-100 rounded-full shadow-lg fluffy-animation">
@@ -41,8 +41,8 @@ const Forex = () => {
 
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
-                                            نام سرویس: Flex Forex
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
+                                            نام سرویس: Flex
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -74,8 +74,8 @@ const Forex = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
-                                            نام سرویس: Solo Forex
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
+                                            نام سرویس: Solo
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -107,8 +107,8 @@ const Forex = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
-                                            نام سرویس: Pro Forex
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
+                                            نام سرویس: Pro
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -157,10 +157,10 @@ const Forex = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Flex Forex، انتخابی اقتصادی برای شروع مطمئن در ترید فارکس
+                                            سرویس Flex
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            اگر به‌تازگی وارد دنیای فارکس شده‌اید یا در حال آزمایش استراتژی‌های معاملاتی خود هستید، سرویس Flex یک گزینه‌ی هوشمندانه و مقرون‌به‌صرفه برای شماست. این سرویس با منابع متعادل، امکان اجرای نرم‌افزارهای معاملاتی مانند متاتریدر را در محیطی پایدار و بدون قطعی فراهم می‌کند. برای تریدرهایی که هنوز در مراحل اولیه مسیر حرفه‌ای خود قرار دارند یا قصد دارند ربات‌ها و اکسپرت‌های سبک را آزمایش کنند، Flex می‌تواند نقطه‌ی شروعی امن و اقتصادی باشد.
+                                            سرویس Flex گزینه‌ای ایده‌آل برای کاربران تازه‌کار، دانشجویان و علاقه‌مندان به یادگیری سرورهای مجازی است. اگر به‌تازگی وارد دنیای VPS شده‌اید و به دنبال راهی مقرون‌به‌صرفه برای آزمون، یادگیری یا اجرای پروژه‌های سبک هستید، این سرویس دقیقاً برای شما طراحی شده. با منابع متعادل و قیمت مناسب، Flex بهترین نقطه‌ی شروع برای تجربه‌ی دنیای سرورهاست.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -182,10 +182,10 @@ const Forex = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Solo Forex، انتخابی حرفه‌ای برای تریدرهای در حال رشد
+                                            سرویس Solo
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            برای تریدرهایی که تجربه‌ی اولیه را پشت سر گذاشته‌اند و حالا به‌دنبال منابع بیشتر، عملکرد پایدارتر و فضای کاری گسترده‌تری هستند، سرویس Solo یک انتخاب ایده‌آل است. این پلن برای معامله‌گرانی طراحی شده که در مسیر پیشرفت قرار دارند و می‌خواهند بدون نگرانی از محدودیت‌های سخت‌افزاری، چند حساب معاملاتی، اکسپرت یا نرم‌افزار متاتریدر را به‌صورت هم‌زمان اجرا کنند.
+                                            سرویس solo مناسب بیزینس‌های سطح متوسط است که به منابع بیشتری نیاز دارند و می‌خواهند از قابلیت‌های کامل‌تر برای مدیریت کسب‌وکار آنلاین خود بهره ببرند. این سرویس برای مشاغلی که در حال رشد و گسترش هستند، انتخابی ایده‌آل محسوب می‌شود.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -200,10 +200,10 @@ const Forex = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Pro Forex، قدرتی بی‌رقیب برای تریدرهای حرفه‌ای و اسکالپرها
+                                            سرویس Pro
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            اگر در دنیای ترید حرفه‌ای فعالیت می‌کنید و کوچک‌ترین تأخیر یا ناپایداری می‌تواند برایتان گران تمام شود، سرویس Pro دقیقاً همان زیرساختی است که به آن نیاز دارید. این پلن با منابع قدرتمند و پایدار، به‌گونه‌ای طراحی شده که پاسخگوی اجرای هم‌زمان چند متاتریدر، ربات‌های معاملاتی پیشرفته، ابزارهای تحلیلی سنگین و استراتژی‌های اسکالپینگ با حساسیت بالا باشد. اگر به دنبال یک سرور مجازی واقعی برای معاملات جدی، مدیریت پیشرفته ریسک و اجرای دقیق استراتژی‌های روز دنیا هستید، سرویس Pro انتخابی حرفه‌ای و بی‌رقیب برای شماست.
+                                            سرویس pro برای کاربران و کسب‌وکارهایی طراحی شده است که به منابع بیشتری نیاز دارند. این سرویس با منابع بهینه، پاسخگوی نیازهای کاربران حرفه‌ای است که مایلند به مدیریت وب‌سایت‌ها، نرم‌افزارها و اپلیکیشن‌های خود بپردازند، بدون نیاز به زیرساخت‌های پیچیده و سنگین.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -215,11 +215,11 @@ const Forex = () => {
                                 <Image src={"/img/pro-service.webp"} alt="support" width={500} height={500} />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
             </div >
         </>
     )
 }
 
-export default Forex;
+export default About_us;

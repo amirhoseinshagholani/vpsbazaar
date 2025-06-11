@@ -6,24 +6,24 @@ import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 
-const Services = () => {
+const Windows = () => {
     return (
         <>
             <div className="bg-white w-full h-full p-10 rounded-3xl">
                 <div className="text-sm vazirfont-regular text-gray-600">
-                    <span className="m-1">خانه</span>/<span className="m-1">سرویس ها</span>
+                    <span className="m-1">خانه</span>/<span className="m-1">سرویس ها</span>/<span className="m-1">سرور مجازی ویندوز</span>
                 </div>
                 <section className="container mx-auto mt-10">
-                    <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی در VPS Bazaar</h1>
+                    <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی ویندوز (Windows VPS) با دسترسی ریموت، پایدار و سریع</h1>
                     <div className="vazirfont-medium text-lg pt-3 md:text-justify text-gray-700 mb-10">
                         <p className="mt-3">
-                            در VPS Bazaar ما سه نوع سرویس سرور مجازی ارائه می‌کنیم که برای نیازهای متنوع کاربران، از حرفه‌ ای ‌ترین توسعه‌ دهنده ‌ها تا صاحبان کسب‌ و کارهای نوپا، طراحی شده‌اند. هرکدام از این پلن‌ها، قابلیت ارتقا در تمامی بخش‌ های سخت‌ افزاری و نرم ‌افزاری را دارند، بنابراین بدون نگرانی از محدودیت، می‌توانید منابع خود را بر اساس رشد پروژه‌ تان تنظیم کنید.
+                            سرور مجازی ویندوز، راه‌حلی قدرتمند برای کسانی است که نیاز به محیطی با سیستم‌عامل Windows دارند اما نمی‌خواهند هزینه‌ی بالای خرید سرور فیزیکی را پرداخت کنند. در VPS Bazaar، ما سرورهای ویندوزی را با آخرین نسخه‌های سیستم‌عامل، منابع اختصاصی، و دسترسی کامل Remote Desktop (RDP) ارائه می‌دهیم تا کاربران بتوانند بدون محدودیت، به‌صورت ۲۴ ساعته و از هرکجای دنیا به محیط دسکتاپ خود متصل شوند.
                         </p>
                         <p className="mt-3">
-                            یکی از مزایای منحصر به ‌فرد سرویس‌های ما، نحوه محاسبه ترافیک مصرفی است؛ ترافیک تنها بر اساس دانلود محاسبه می‌شود و آپلود برای شما کاملاً رایگان خواهد بود. این یعنی کنترل بیشتر روی هزینه ‌ها، مخصوصاً برای کسانی که دیتای زیادی آپلود می‌کنند.
+                            چه بخواهید نرم‌افزارهای مالی و حسابداری ویندوزی را اجرا کنید، چه با مرورگر و ابزارهای خاص تحت ویندوز کار کنید یا حتی پروژه‌های اتوماسیون و مانیتورینگ راه‌اندازی کنید، سرورهای ویندوزی ما پاسخگوی نیاز شما خواهند بود. همه سرورها روی زیرساخت پایدار و پرسرعت ما اجرا می‌شوند و از لحاظ امنیت، پشتیبانی و قابلیت ارتقاء، استانداردهای حرفه‌ای را رعایت می‌کنند.
                         </p>
                         <p className="mt-3">
-                            ما در VPS Bazaar تلاش کرده ‌ایم تجربه ‌ای ساده، سریع و قابل اعتماد از خرید سرور مجازی برای شما فراهم کنیم، با پشتیبانی اختصاصی و سرورهایی پرسرعت که همیشه در دسترس شما هستند.
+                            با سرور مجازی ویندوز از VPS Bazaar، دیگر محدود به دستگاه فیزیکی یا لوکال نیستید؛ هر آن‌چه در یک سیستم ویندوزی نیاز دارید، در محیطی امن، در دسترس شماست.
                         </p>
                     </div>
 
@@ -39,8 +39,8 @@ const Services = () => {
 
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Flex
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
+                                            نام سرویس: Flex windows
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -72,8 +72,8 @@ const Services = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Solo
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
+                                            نام سرویس: Solo windows
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -105,8 +105,8 @@ const Services = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Pro
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
+                                            نام سرویس: Pro windows
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -155,10 +155,10 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Flex
+                                            سرویس Flex windows
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس Flex گزینه‌ای ایده‌آل برای کاربران تازه‌کار، دانشجویان و علاقه‌مندان به یادگیری سرورهای مجازی است. اگر به‌تازگی وارد دنیای VPS شده‌اید و به دنبال راهی مقرون‌به‌صرفه برای آزمون، یادگیری یا اجرای پروژه‌های سبک هستید، این سرویس دقیقاً برای شما طراحی شده. با منابع متعادل و قیمت مناسب، Flex بهترین نقطه‌ی شروع برای تجربه‌ی دنیای سرورهاست.
+                                            اگر به‌دنبال یک سرور ویندوزی مقرون‌به‌صرفه هستید که نیازهای ابتدایی شما را برآورده کند، سرویس Flex می‌تواند شروع مناسبی باشد. این پلن مخصوص کسانی طراحی شده که قصد دارند نرم‌افزارهای سبک ویندوزی، مرورگر یا ابزارهای اتوماسیون ساده را روی محیطی همیشه روشن و در دسترس اجرا کنند. اتصال Remote Desktop سریع، پایداری مناسب و مصرف بهینه منابع باعث شده تا Flex به انتخابی محبوب برای کاربران تازه‌کار، دانشجویان و پروژه‌های آزمایشی تبدیل شود.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -180,10 +180,10 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Solo
+                                            سرویس Solo windows
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس solo مناسب بیزینس‌های سطح متوسط است که به منابع بیشتری نیاز دارند و می‌خواهند از قابلیت‌های کامل‌تر برای مدیریت کسب‌وکار آنلاین خود بهره ببرند. این سرویس برای مشاغلی که در حال رشد و گسترش هستند، انتخابی ایده‌آل محسوب می‌شود.
+                                            سرویس Solo مخصوص کاربرانی‌ست که به منابع قوی‌تری برای اجرای نرم‌افزارهای حرفه‌ای ویندوزی نیاز دارند. چه بخواهید یک اپلیکیشن مالی همیشه فعال را روی سرور داشته باشید، چه بخواهید چندین ابزار مختلف را به‌صورت هم‌زمان اجرا کنید، Solo به‌خوبی از پس نیازهای شما برمی‌آید. این پلن برای فریلنسرها، مدیران پروژه، و بیزینس‌های در حال رشد که به یک محیط پایدار و امن ویندوزی نیاز دارند، انتخابی دقیق و کاربردی است.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -198,10 +198,10 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Pro
+                                            سرویس Pro windows
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس pro برای کاربران و کسب‌وکارهایی طراحی شده است که به منابع بیشتری نیاز دارند. این سرویس با منابع بهینه، پاسخگوی نیازهای کاربران حرفه‌ای است که مایلند به مدیریت وب‌سایت‌ها، نرم‌افزارها و اپلیکیشن‌های خود بپردازند، بدون نیاز به زیرساخت‌های پیچیده و سنگین.
+                                            اگر به‌دنبال یک سرور ویندوزی حرفه‌ای با منابع قدرتمند، عملکرد سریع و پایداری بی‌وقفه هستید، سرویس Pro دقیقاً برای شما طراحی شده است. این پلن برای اجرای هم‌زمان چند برنامه سنگین، نرم‌افزارهای تحلیلی، ربات‌های اتوماسیون، یا حتی میزبانی فایل و خدمات از راه دور ایده‌آل است. با دسترسی کامل از طریق RDP و امکان ارتقاء منابع بدون نیاز به مهاجرت، Pro بهترین گزینه برای کاربران حرفه‌ای، شرکت‌ها و پروژه‌های حساس محسوب می‌شود.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -220,4 +220,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default Windows;

@@ -54,7 +54,7 @@ const Footer = () => {
                     <div className="col-span-3 vazirfont-regular flex">
                         <ul>
                             <li className="mt-2">
-                                <span>سیاست های حفظ حریم خصوصی</span>
+                                <Link href="/privacy_policy"><span>سیاست های حفظ حریم خصوصی</span></Link>
                             </li>
                             <li className="mt-2">
                                 <span>پشتیبانی: </span>

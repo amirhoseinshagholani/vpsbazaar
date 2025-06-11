@@ -6,26 +6,24 @@ import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 
-const Forex = () => {
+const Ssh = () => {
     return (
         <>
             <div className="bg-white w-full h-full p-10 rounded-3xl">
-                <div className="text-sm vazirfont-regular text-gray-600 flex gap-2">
-                    <Link className="text-blue-600" href="/"><span>خانه</span></Link>/<Link className="text-blue-600" href="/vps"><span>سرور مجازی</span></Link>/<span>سرور مجازی فارکس</span>
+                <div className="text-sm vazirfont-regular text-gray-600">
+                    <span className="m-1">خانه</span>/<span className="m-1">سرویس ها</span>/<span className="m-1">سرور مجازی با دسترسی ssh</span>
                 </div>
                 <section className="container mx-auto mt-10">
-                    <h1 className="vazirfont-bold text-2xl text-gray-800">
-                        سرور مجازی فارکس (Forex VPS) با پینگ پایین و اتصال پایدار
-                    </h1>
+                    <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی با دسترسی SSH؛ کنترل کامل، امنیت بالا و آزادی عمل در مدیریت سرور</h1>
                     <div className="vazirfont-medium text-lg pt-3 md:text-justify text-gray-700 mb-10">
                         <p className="mt-3">
-                            اگر در بازار فارکس فعالیت می‌کنید، حتماً می‌دانید که هر ثانیه می‌تواند سرنوشت یک معامله را تغییر دهد. به همین دلیل، ما در VPS Bazaar سرورهای مجازی ویژه‌ای برای تریدرها فراهم کرده‌ایم که با کمترین پینگ، بالاترین سرعت و بیشترین پایداری، نیازهای شما را در بازارهای بین‌المللی برآورده می‌کنند. این سرورها به‌طور خاص برای اجرای ۲۴ ساعته نرم‌افزارهایی مانند MetaTrader و سایر ابزارهای معاملاتی بهینه شده‌اند تا بدون قطعی و تأخیر، معاملات خود را با آرامش کامل مدیریت کنید.
+                            ما سرورهای مجازی با دسترسی کامل SSH ارائه می‌دهیم تا کاربران بتوانند از راه دور و با بیشترین سطح کنترل، تمام تنظیمات و فرایندهای سرور خود را مدیریت کنند. این نوع دسترسی، برای توسعه‌دهندگان، مدیران سیستم و علاقه‌مندان به لینوکس، یک محیط امن و کاربردی برای اجرای دستورات، نصب نرم‌افزار، مدیریت فایل‌ها و مانیتورینگ لحظه‌ای فراهم می‌کند.
                         </p>
                         <p className="mt-3">
-                            ر طراحی این سرویس‌ها تلاش کرده‌ایم تجربه‌ای حرفه‌ای و بی‌دردسر برای تریدرها فراهم کنیم. سرورهای فارکس ما به بروکرهای معتبر جهانی دسترسی سریع و پایدار دارند و برای اجرای هم‌زمان چند حساب معاملاتی یا ربات‌های خودکار کاملاً مناسب هستند. از آن‌جا که در این سرورها، ترافیک تنها بر اساس دانلود محاسبه می‌شود و آپلود کاملاً رایگان است، کاربران می‌توانند با خیال راحت داده‌های معاملاتی خود را ارسال کنند، بدون اینکه نگران هزینه‌های اضافی باشند.
+                            با استفاده از SSH، دیگر محدود به پنل‌های گرافیکی نیستید و می‌توانید از طریق ترمینال، به صورت مستقیم با سرور خود ارتباط برقرار کنید. این شیوه نه‌تنها سرعت و دقت در اجرای فرامین را افزایش می‌دهد، بلکه امنیت بیشتری نیز در مقایسه با روش‌های مرسوم به همراه دارد. به همین دلیل، سرور مجازی با SSH انتخاب اول برنامه‌نویسان، DevOpsها و کسانی است که به محیط خط فرمان و تنظیمات سطح پایین‌تر علاقه‌مندند.
                         </p>
                         <p className="mt-3">
-                            سرورهای مجازی VPS Bazaar از لحاظ منابع سخت‌افزاری قابل ارتقاء هستند. شما می‌توانید در هر زمان و بدون نیاز به انتقال اطلاعات، پلن خود را ارتقاء دهید و منابع سرور را متناسب با رشد فعالیت‌هایتان افزایش دهید. برای کاربرانی که تازه وارد دنیای معاملات شده‌اند، پلن Flex انتخابی اقتصادی و قابل اعتماد است. کسانی که تجربه بیشتری دارند و به منابع پایدارتر نیاز دارند، می‌توانند از پلن Solo استفاده کنند. برای حرفه‌ای‌هایی که اجرای دقیق و بدون وقفه چندین حساب یا ربات را دنبال می‌کنند، پلن Pro بهترین گزینه است.
+                            زیرساخت‌های قدرتمند VPS Bazaar به شما این امکان را می‌دهد تا تجربه‌ای سریع، پایدار و بدون محدودیت از کار با SSH داشته باشید. فرقی نمی‌کند که در حال نصب پکیج‌های سفارشی، اجرای اسکریپت‌های خودکار، یا راه‌اندازی سرویس‌های وب باشید؛ با دسترسی SSH، همه چیز در کنترل شماست.
                         </p>
                     </div>
 
@@ -34,15 +32,15 @@ const Forex = () => {
                             <div className="inline-flex items-center gap-2 px-6 py-4 bg-blue-100 rounded-full shadow-lg fluffy-animation">
                                 <span className="text-4xl">☁️</span>
                                 <h2 className="text-2xl vazirfont-bold text-blue-800">
-                                    خدمات ما
+                                    خدمات ما در VPS Bazaar
                                 </h2>
                             </div>
                             <div className="grid grid-cols-12 mt-10 g-3">
 
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
-                                            نام سرویس: Flex Forex
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2  text-nowrap">
+                                            نام سرویس: Flex ssh
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -74,8 +72,8 @@ const Forex = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
-                                            نام سرویس: Solo Forex
+                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2  text-nowrap">
+                                            نام سرویس: Solo ssh
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -108,7 +106,7 @@ const Forex = () => {
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
                                         <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
-                                            نام سرویس: Pro Forex
+                                            نام سرویس: Pro ssh
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -157,10 +155,10 @@ const Forex = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Flex Forex، انتخابی اقتصادی برای شروع مطمئن در ترید فارکس
+                                            سرویس Flex ssh
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            اگر به‌تازگی وارد دنیای فارکس شده‌اید یا در حال آزمایش استراتژی‌های معاملاتی خود هستید، سرویس Flex یک گزینه‌ی هوشمندانه و مقرون‌به‌صرفه برای شماست. این سرویس با منابع متعادل، امکان اجرای نرم‌افزارهای معاملاتی مانند متاتریدر را در محیطی پایدار و بدون قطعی فراهم می‌کند. برای تریدرهایی که هنوز در مراحل اولیه مسیر حرفه‌ای خود قرار دارند یا قصد دارند ربات‌ها و اکسپرت‌های سبک را آزمایش کنند، Flex می‌تواند نقطه‌ی شروعی امن و اقتصادی باشد.
+                                            سرویس Flex انتخابی مناسب برای کاربران تازه‌کار، دانشجویان یا برنامه‌نویسانی است که در آغاز مسیر یادگیری کار با SSH و مدیریت سرورهای لینوکسی هستند. این پلن با منابع متعادل، قیمت اقتصادی و دسترسی کامل SSH، محیطی ساده و قابل اطمینان برای نصب ابزارها، اجرای اسکریپت‌ها و انجام تنظیمات پایه فراهم می‌کند. اگر می‌خواهید اولین تجربه‌ی خود را در دنیای مدیریت از طریق ترمینال شروع کنید، Flex گزینه‌ای عالی برای شروع امن و بدون پیچیدگی است.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -182,10 +180,10 @@ const Forex = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Solo Forex، انتخابی حرفه‌ای برای تریدرهای در حال رشد
+                                            سرویس Solo ssh
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            برای تریدرهایی که تجربه‌ی اولیه را پشت سر گذاشته‌اند و حالا به‌دنبال منابع بیشتر، عملکرد پایدارتر و فضای کاری گسترده‌تری هستند، سرویس Solo یک انتخاب ایده‌آل است. این پلن برای معامله‌گرانی طراحی شده که در مسیر پیشرفت قرار دارند و می‌خواهند بدون نگرانی از محدودیت‌های سخت‌افزاری، چند حساب معاملاتی، اکسپرت یا نرم‌افزار متاتریدر را به‌صورت هم‌زمان اجرا کنند.
+                                            برای کاربران نیمه‌حرفه‌ای یا مدیران پروژه‌هایی که نیاز به منابع بیشتر و عملکرد باثبات‌تری دارند، سرویس Solo پاسخی دقیق به این نیازهاست. با دسترسی کامل SSH و منابع اختصاصی بیشتر، این پلن امکان اجرای برنامه‌های سمت سرور، راه‌اندازی اپلیکیشن‌های تحت Node.js یا Python و مدیریت بهتر تنظیمات امنیتی را فراهم می‌کند. اگر در حال توسعه یا نگهداری سرویس‌هایی با ترافیک متوسط هستید، Solo آزادی عملی بیشتر همراه با پایداری بالاتر در اختیارتان می‌گذارد.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -200,10 +198,10 @@ const Forex = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Pro Forex، قدرتی بی‌رقیب برای تریدرهای حرفه‌ای و اسکالپرها
+                                            سرویس Pro ssh
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            اگر در دنیای ترید حرفه‌ای فعالیت می‌کنید و کوچک‌ترین تأخیر یا ناپایداری می‌تواند برایتان گران تمام شود، سرویس Pro دقیقاً همان زیرساختی است که به آن نیاز دارید. این پلن با منابع قدرتمند و پایدار، به‌گونه‌ای طراحی شده که پاسخگوی اجرای هم‌زمان چند متاتریدر، ربات‌های معاملاتی پیشرفته، ابزارهای تحلیلی سنگین و استراتژی‌های اسکالپینگ با حساسیت بالا باشد. اگر به دنبال یک سرور مجازی واقعی برای معاملات جدی، مدیریت پیشرفته ریسک و اجرای دقیق استراتژی‌های روز دنیا هستید، سرویس Pro انتخابی حرفه‌ای و بی‌رقیب برای شماست.
+                                            برای توسعه‌دهندگان حرفه‌ای، تیم‌های DevOps و کسانی که به‌دنبال محیطی قدرتمند برای مدیریت چند سرویس، اتوماسیون وظایف و اجرای پروژه‌های سنگین‌تر هستند، سرویس Pro انتخابی بی‌نقص است. با منابع بالا، عملکرد پایدار و دسترسی کامل از طریق SSH، این پلن امکان استقرار سریع برنامه‌ها، مانیتورینگ دائم، بهینه‌سازی سیستم و اعمال سیاست‌های امنیتی پیشرفته را فراهم می‌کند. اگر به‌دنبال تجربه‌ای حرفه‌ای و بدون محدودیت در محیط لینوکسی هستید، سرویس Pro دقیقاً همان چیزی‌ست که به دنبالش بودید.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -222,4 +220,4 @@ const Forex = () => {
     )
 }
 
-export default Forex;
+export default Ssh;

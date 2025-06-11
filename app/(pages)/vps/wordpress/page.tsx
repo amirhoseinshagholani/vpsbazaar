@@ -6,24 +6,24 @@ import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 
-const Services = () => {
+const Windows = () => {
     return (
         <>
             <div className="bg-white w-full h-full p-10 rounded-3xl">
                 <div className="text-sm vazirfont-regular text-gray-600">
-                    <span className="m-1">خانه</span>/<span className="m-1">سرویس ها</span>
+                    <span className="m-1">خانه</span>/<span className="m-1">سرویس ها</span>/<span className="m-1">سرور مجازی وردپرس</span>
                 </div>
                 <section className="container mx-auto mt-10">
-                    <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی در VPS Bazaar</h1>
+                    <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی وردپرس (WordPress VPS) برای وب‌سایت‌های سریع، امن و همیشه در دسترس</h1>
                     <div className="vazirfont-medium text-lg pt-3 md:text-justify text-gray-700 mb-10">
                         <p className="mt-3">
-                            در VPS Bazaar ما سه نوع سرویس سرور مجازی ارائه می‌کنیم که برای نیازهای متنوع کاربران، از حرفه‌ ای ‌ترین توسعه‌ دهنده ‌ها تا صاحبان کسب‌ و کارهای نوپا، طراحی شده‌اند. هرکدام از این پلن‌ها، قابلیت ارتقا در تمامی بخش‌ های سخت‌ افزاری و نرم ‌افزاری را دارند، بنابراین بدون نگرانی از محدودیت، می‌توانید منابع خود را بر اساس رشد پروژه‌ تان تنظیم کنید.
+                            اگر وب‌سایتی با وردپرس دارید و به‌دنبال سرعت بیشتر، امنیت بالاتر و کنترل کامل‌تری نسبت به هاست اشتراکی هستید، وقت آن رسیده که به سرور مجازی وردپرس مهاجرت کنید. در VPS Bazaar ما سرورهایی اختصاصی برای میزبانی وردپرس فراهم کرده‌ایم که با منابع کاملاً قابل ارتقاء، عملکرد پایدار و پشتیبانی فنی مناسب، وب‌سایت شما را در بالاترین سطح نگه می‌دارند.
                         </p>
                         <p className="mt-3">
-                            یکی از مزایای منحصر به ‌فرد سرویس‌های ما، نحوه محاسبه ترافیک مصرفی است؛ ترافیک تنها بر اساس دانلود محاسبه می‌شود و آپلود برای شما کاملاً رایگان خواهد بود. این یعنی کنترل بیشتر روی هزینه ‌ها، مخصوصاً برای کسانی که دیتای زیادی آپلود می‌کنند.
+                            با استفاده از سرور مجازی وردپرس، دیگر دغدغه محدودیت‌های هاست اشتراکی را نخواهید داشت. می‌توانید افزونه‌های سنگین نصب کنید، کش پیشرفته فعال کنید و سایت خود را برای سئو و تجربه کاربری بهتر بهینه‌سازی کنید. این سرورها به‌طور کامل با وردپرس سازگارند و امکان راه‌اندازی سریع، پشتیبان‌گیری منظم، و بهینه‌سازی منابع را در اختیار شما می‌گذارند.
                         </p>
                         <p className="mt-3">
-                            ما در VPS Bazaar تلاش کرده ‌ایم تجربه ‌ای ساده، سریع و قابل اعتماد از خرید سرور مجازی برای شما فراهم کنیم، با پشتیبانی اختصاصی و سرورهایی پرسرعت که همیشه در دسترس شما هستند.
+                            چه تازه سایت خود را راه‌اندازی کرده باشید، چه یک فروشگاه بزرگ ووکامرسی را مدیریت کنید، سرورهای وردپرس VPS Bazaar برای رشد و مقیاس‌پذیری آماده‌اند.
                         </p>
                     </div>
 
@@ -39,8 +39,8 @@ const Services = () => {
 
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Flex
+                                        <h3 dir="rtl" className="vazirfont-bold text-lg mb-2 text-nowrap">
+                                            نام سرویس: Flex wordPress
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -72,8 +72,8 @@ const Services = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Solo
+                                        <h3 dir="rtl" className="vazirfont-bold text-lg mb-2 text-nowrap">
+                                            نام سرویس: Solo wordPress
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -105,8 +105,8 @@ const Services = () => {
                                 </div>
                                 <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2">
-                                            نام سرویس: Pro
+                                        <h3 dir="rtl" className="vazirfont-bold text-lg mb-2 text-nowrap">
+                                            نام سرویس: Pro wordPress
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
                                             <span><CpuSvg /></span>
@@ -155,10 +155,10 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Flex
+                                            سرویس Flex wordPress
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس Flex گزینه‌ای ایده‌آل برای کاربران تازه‌کار، دانشجویان و علاقه‌مندان به یادگیری سرورهای مجازی است. اگر به‌تازگی وارد دنیای VPS شده‌اید و به دنبال راهی مقرون‌به‌صرفه برای آزمون، یادگیری یا اجرای پروژه‌های سبک هستید، این سرویس دقیقاً برای شما طراحی شده. با منابع متعادل و قیمت مناسب، Flex بهترین نقطه‌ی شروع برای تجربه‌ی دنیای سرورهاست.
+                                            سرویس Flex برای کسانی طراحی شده که به‌تازگی وارد دنیای وردپرس شده‌اند یا وب‌سایت‌های سبک، شخصی یا آموزشی راه‌اندازی کرده‌اند. این پلن منابع مناسبی برای میزبانی یک سایت وردپرسی با ترافیک کم تا متوسط فراهم می‌کند و در عین حال امکان ارتقاء آسان را نیز در اختیار شما قرار می‌دهد. اگر به‌دنبال یک نقطه شروع اقتصادی با امکانات پایه و عملکرد پایدار هستید، Flex انتخابی منطقی و مطمئن است.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -180,10 +180,10 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Solo
+                                            سرویس Solo wordPress
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس solo مناسب بیزینس‌های سطح متوسط است که به منابع بیشتری نیاز دارند و می‌خواهند از قابلیت‌های کامل‌تر برای مدیریت کسب‌وکار آنلاین خود بهره ببرند. این سرویس برای مشاغلی که در حال رشد و گسترش هستند، انتخابی ایده‌آل محسوب می‌شود.
+                                            اگر سایت وردپرسی شما ترافیک بیشتری دارد، از افزونه‌های پیشرفته استفاده می‌کند یا فروشگاه اینترنتی ووکامرس روی آن فعال است، سرویس Solo برای شما طراحی شده. این پلن با منابع بیشتر و عملکرد قدرتمندتر، می‌تواند چندین افزونه بهینه‌ساز، سیستم کش حرفه‌ای و حتی سامانه‌های ایمیل یا گزارش‌گیری را بدون افت کیفیت اجرا کند. Solo انتخاب مناسبی برای سایت‌های در حال رشد و کسب‌وکارهایی است که به سرعت و پایداری اهمیت می‌دهند.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -198,10 +198,10 @@ const Services = () => {
                                 <div className="flex justify-center">
                                     <div className="mx-auto w-fit">
                                         <h3 className="vazirfont-bold text-blue-700 text-2xl mx-auto w-2/3">
-                                            سرویس Pro
+                                            سرویس Pro wordPress
                                         </h3>
                                         <p className="text-justify vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
-                                            سرویس pro برای کاربران و کسب‌وکارهایی طراحی شده است که به منابع بیشتری نیاز دارند. این سرویس با منابع بهینه، پاسخگوی نیازهای کاربران حرفه‌ای است که مایلند به مدیریت وب‌سایت‌ها، نرم‌افزارها و اپلیکیشن‌های خود بپردازند، بدون نیاز به زیرساخت‌های پیچیده و سنگین.
+                                            برای وب‌سایت‌های پرترافیک، فروشگاه‌های بزرگ، یا کسب‌وکارهایی که امنیت، سرعت بارگذاری و انعطاف‌پذیری بالا برایشان حیاتی‌ست، سرویس Pro طراحی شده است. این پلن با منابع اختصاصی قوی، اجرای بی‌وقفه، و سازگاری کامل با بهینه‌سازهای وردپرس، پاسخگوی نیاز کاربران حرفه‌ای است. با Pro می‌توانید وب‌سایتی با سرعت فوق‌العاده، امنیت سطح بالا و زیرساخت قابل توسعه داشته باشید که همیشه آماده پاسخ‌گویی به کاربران شماست.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-2/3 mt-3">
                                             <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
@@ -220,4 +220,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default Windows;
