@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const LandingHeader = () => {
-    return (
+    return ( 
         <>
             <div className="h-fit p-10">
                 <div className="container mx-auto">
-                    <div className="text-white vazirfont-medium text-sm">
+                    <div className="text-sm vazirfont-regular text-gray-100">
                         خانه
                     </div>
                     <div className="grid grid-cols-12 flex items-center">
@@ -27,9 +27,13 @@ const LandingHeader = () => {
                             </div>
                             <div className="mt-10 flex">
                                 <Link className="mx-auto" href="/vps">
-                                    <span className="bg-white hover:bg-gray-200 text-black vazirfont-bold pr-5 pl-5 pt-2 pb-2 rounded-3xl">✔️ مشاهده سرویس ها</span>
+                                    <span className="bg-white text-black vazirfont-bold pr-5 pl-5 pt-2 pb-2 rounded-3xl transition-transform duration-300 ease-in-out hover:scale-105 hover:-rotate-2 hover:bg-gray-200 inline-block">
+                                        ✔️ مشاهده سرویس‌ها
+                                    </span>
                                 </Link>
                             </div>
+
+
                         </div>
                         <div className="col-span-6 flex justify-end">
                             <Image src={"/img/vps.webp"} alt="vps" width={500} height={500} />

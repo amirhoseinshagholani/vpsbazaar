@@ -37,9 +37,9 @@ const Windows = () => {
                             </div>
                             <div className="grid grid-cols-12 mt-10 g-3">
 
-                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
+                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-3/4 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
+                                        <h3 dir="rtl" className="vazirfont-bold text-md mb-2 text-nowrap">
                                             نام سرویس: Flex windows
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
@@ -65,14 +65,14 @@ const Windows = () => {
                                             <hr />
                                         </div>
                                         <div className="mt-3 gap-2  vazirfont-medium text-gray-500">
-
-                                            <div className="">پشتیبانی رایگان</div>
+                                            <div>پشتیبانی رایگان</div>
+                                            <div className="mt-2">لوکیشن: ایران</div>
                                         </div>
                                     </Link>
                                 </div>
-                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
+                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-3/4 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
+                                        <h3 dir="rtl" className="vazirfont-bold text-md mb-2 text-nowrap">
                                             نام سرویس: Solo windows
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
@@ -98,14 +98,14 @@ const Windows = () => {
                                             <hr />
                                         </div>
                                         <div className="mt-3 gap-2  vazirfont-medium text-gray-500">
-
-                                            <div className="">پشتیبانی رایگان</div>
+                                            <div>پشتیبانی رایگان</div>
+                                            <div className="mt-2">لوکیشن: ایران</div>
                                         </div>
                                     </Link>
                                 </div>
-                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-1/2 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
+                                <div dir="ltr" className="col-span-4 outline-1 rounded-2xl w-3/4 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
                                     <Link href="#">
-                                        <h3 dir="rtl" className="vazirfont-bold text-xl mb-2 text-nowrap">
+                                        <h3 dir="rtl" className="vazirfont-bold text-md mb-2 text-nowrap">
                                             نام سرویس: Pro windows
                                         </h3>
                                         <div className="mt-5 flex gap-2 vazirfont-medium text-gray-500">
@@ -131,8 +131,8 @@ const Windows = () => {
                                             <hr />
                                         </div>
                                         <div className="mt-3 gap-2  vazirfont-medium text-gray-500">
-
-                                            <div className="">پشتیبانی رایگان</div>
+                                            <div>پشتیبانی رایگان</div>
+                                            <div className="mt-2">لوکیشن: ایران</div>
                                         </div>
                                     </Link>
                                 </div>
@@ -168,13 +168,13 @@ const Windows = () => {
                                 </div>
                             </div>
                             <div className="col-span-6 flex">
-                                <Image className="mx-auto" src={"/img/flex-service.webp"} alt="support" width={400} height={400} />
+                                <Image className="mx-auto" src={"/img/windows/windows_flex.webp"} alt="support" width={400} height={400} />
                             </div>
                         </div>
 
                         <div className="grid grid-cols-12 mt-20">
                             <div className="col-span-6">
-                                <Image src={"/img/midd-service.webp"} alt="support" width={500} height={500} />
+                                <Image src={"/img/windows/windows_solo.webp"} alt="support" width={500} height={500} />
                             </div>
                             <div className="col-span-6 flex items-center">
                                 <div className="flex justify-center">
@@ -210,7 +210,7 @@ const Windows = () => {
                                 </div>
                             </div>
                             <div className="col-span-6">
-                                <Image src={"/img/pro-service.webp"} alt="support" width={500} height={500} />
+                                <Image src={"/img/windows/windows_pro.webp"} alt="support" width={500} height={500} />
                             </div>
                         </div>
                     </div>

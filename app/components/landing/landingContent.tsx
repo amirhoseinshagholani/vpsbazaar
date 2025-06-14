@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const LandingContent = () => {
     return (
         <>
-            <div id="" className="bg-white h-full mr-10 rounded-r-3xl mt-10">
+            <div id="" className="bg-[#D7BDE2] h-full mr-10 rounded-r-3xl mt-10">
                 <section className="container mx-auto">
                     <div className="p-10 grid grid-cols-12">
                         <div className="col-span-6 mt-10">
@@ -22,6 +23,9 @@ const LandingContent = () => {
                             <p className="text-lg vazirfont-regular mb-1 text-gray-600">
                                 اگر به دنبال عملکرد پایدارتر و قدرتمندتر از هاست اشتراکی هستید، VPS بهترین انتخاب برای شماست.
                             </p>
+                            <div className="text-justify justify-end vazirfont-regular text-gray-700  text-lg w-2/3 mt-3">
+                                <Link className=" bg-blue-500  hover:bg-blue-600 text-white p-1 pl-4 pr-3 rounded-l-4xl" href="/vps">شروع کنید</Link>
+                            </div>
                         </div>
                         <div className="col-span-6 mx-auto">
                             <Image src={"/img/myVps.webp"} alt="myVps" width={500} height={500} />
@@ -30,9 +34,9 @@ const LandingContent = () => {
 
                     <div className="p-10">
                         <div className="text-center mb-5">
-                            <div className="inline-flex items-center gap-2 px-6 py-4 bg-blue-100 rounded-full shadow-lg fluffy-animation">
+                            <div className="inline-flex items-center gap-2 px-6 py-4 bg-[#2E86C1] rounded-full shadow-lg fluffy-animation">
                                 <span className="text-4xl">☁️</span>
-                                <h2 className="text-2xl vazirfont-bold text-blue-800">
+                                <h2 className="text-2xl vazirfont-bold text-blue-100">
                                     مزایای خرید سرور مجازی از VPS Bazaar
                                 </h2>
                             </div>

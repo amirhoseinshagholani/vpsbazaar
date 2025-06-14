@@ -21,7 +21,7 @@ const Footer = () => {
     return (
         <>
             <footer className="p-10 pb-1">
-                <div className=" bg-[#c92e93] grid grid-cols-12  p-10 rounded-2xl text-gray-800">
+                <div className="grid grid-cols-12  p-10  text-white">
                     <div className="col-span-3 vazirfont-regular">
                         <ul>
                             <li className="mt-2">
@@ -67,7 +67,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="vazirfont-regular mt-1  text-gray-700 flex">
-                    <div className="flex mx-auto gap-2 bg-white w-fit rounded-2xl pr-2 pl-2 mt-1">
+                    <div className="flex mx-auto gap-2 bg-[#ECF0F1] w-fit rounded-2xl pr-2 pl-2 mt-1">
                         <div className="p-2 rounded-full">
                             <Link href="/">
                                 <Image src={logo} alt="logo" width={30} height={30} />

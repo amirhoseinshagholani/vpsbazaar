@@ -1,9 +1,3 @@
-import formatNumber from "@/functions/formatNumber";
-import CpuSvg from "@/public/svg/cpuSvg";
-import RamSvg from "@/public/svg/ramSvg";
-import SsdSvg from "@/public/svg/ssdSvg";
-import TrafficSvg from "@/public/svg/trafficSvg";
-import Link from "next/link";
 import Image from "next/image";
 import Contact_usForm from "./contact_usFotm";
 
@@ -27,7 +21,7 @@ const Contact_us = () => {
                                 ایمیل: info@vpsbazaar.cloud
                             </p>
                             <p className="h-fit mt-5">
-                                آدرس: تهران - باغ خزانه - خیابان شهید حسین نیازمند - کوچه شهید رحیم نریمانی دوم - پلاک : 9.0 - طبقه : 2
+                                آدرس: تهران - خیابان شهید حسین نیازمند - کوچه شهید رحیم نریمانی دوم - پلاک : 9.0 - طبقه : 2
                             </p>
                             <div className="mt-10">
                                 <Contact_usForm />

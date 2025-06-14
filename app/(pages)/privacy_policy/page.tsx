@@ -1,8 +1,3 @@
-import formatNumber from "@/functions/formatNumber";
-import CpuSvg from "@/public/svg/cpuSvg";
-import RamSvg from "@/public/svg/ramSvg";
-import SsdSvg from "@/public/svg/ssdSvg";
-import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -55,7 +50,7 @@ const About_us = () => {
                             </p>
                         </div>
                         <div className="col-span-4 flex h-fit">
-                            <Image className="items-center mx-auto" src="/img/about_us.webp" width={500} height={500} alt="About Us" />
+                            <Image className="items-center mx-auto" src="/img/privacy.webp" width={500} height={500} alt="About Us" />
                         </div>
                     </div>
                     {/* 
