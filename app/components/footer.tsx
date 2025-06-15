@@ -21,8 +21,8 @@ const Footer = () => {
     return (
         <>
             <footer className="p-10 pb-1">
-                <div className="grid grid-cols-12  p-10  text-white">
-                    <div className="col-span-3 vazirfont-regular">
+                <div className="grid grid-cols-12 p-10 flex text-white">
+                    <div className="col-span-6 md:col-span-3 vazirfont-regular">
                         <ul>
                             <li className="mt-2">
                                 صفحه اصلی
@@ -33,9 +33,12 @@ const Footer = () => {
                             <li className="mt-2">
                                 مقالات
                             </li>
+                            <li className="mt-2">
+                                نقشه سایت
+                            </li>
                         </ul>
                     </div>
-                    <div className="col-span-3 vazirfont-regular">
+                    <div className="col-span-6 md:col-span-3 vazirfont-regular flex justify-end md:justify-center">
                         <ul>
                             <li className="mt-2">
                                 درباره ما
@@ -44,26 +47,26 @@ const Footer = () => {
                                 تماس با ما
                             </li>
                             <li className="mt-2">
-                                نقشه سایت
-                            </li>
-                            <li className="mt-2">
                                 ورود
                             </li>
                         </ul>
                     </div>
-                    <div className="col-span-3 vazirfont-regular flex">
+                    <div className="col-span-6 md:col-span-3 vazirfont-regular flex mt-10 md:mt-0">
                         <ul>
-                            <li className="mt-2">
+                            <li className="md:mt-2">
                                 <Link href="/privacy_policy"><span>سیاست های حفظ حریم خصوصی</span></Link>
                             </li>
                             <li className="mt-2">
                                 <span>پشتیبانی: </span>
+                                <br className="md:hidden" />
                                 <span dir="ltr">021-91095238</span>
                             </li>
                         </ul>
                     </div>
-                    <div className="col-span-3 vazirfont-regular flex flex justify-center">
-                        E-namad
+                    <div className="col-span-6 md:col-span-3 vazirfont-regular flex justify-end md:justify-center mt-10 md:mt-0">
+                        <div>
+                            E-namad
+                        </div>
                     </div>
                 </div>
                 <div className="vazirfont-regular mt-1  text-gray-700 flex">

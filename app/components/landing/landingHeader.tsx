@@ -2,26 +2,26 @@ import Image from "next/image";
 import Link from "next/link";
 
 const LandingHeader = () => {
-    return ( 
+    return (
         <>
-            <div className="h-fit p-10">
+            <div className="h-fit p-5 md:p-10">
                 <div className="container mx-auto">
                     <div className="text-sm vazirfont-regular text-gray-100">
                         خانه
                     </div>
                     <div className="grid grid-cols-12 flex items-center">
-                        <div className="col-span-6">
-                            <div className="vazirfont-bold text-lg flex gap-1 text-white">
+                        <div className="col-span-12 md:col-span-6">
+                            <div className="vazirfont-bold text-nowrap md:text-lg flex gap-1 text-white">
                                 <span>✔️</span>
-                                <h1 className="text-[16px]">
+                                <h1 className="text-[16px] text-nowrap">
                                     ارایه سرورهای مجازی با کیفیت بالا و قیمت مناسب
                                 </h1>
                             </div>
-                            <div className="vazirfont-bold text-lg text-white mt-5 gap-1">
+                            <div className="vazirfont-bold text-nowrap md:text-lg text-white mt-5 gap-1">
                                 <span>✔️</span>
                                 <span>انتخاب سرور مناسب، اولین قدم برای ایده های بزرگ</span>
                             </div>
-                            <div className="vazirfont-bold text-2xl mt-5 text-white">
+                            <div className="vazirfont-bold text-nowrap md:text-2xl mt-5 text-white">
                                 <span>✔️</span>
                                 <span>ما اینجاییم تا رویای دیجیتال شما به واقعیت تبدیل شود</span>
                             </div>
@@ -35,8 +35,8 @@ const LandingHeader = () => {
 
 
                         </div>
-                        <div className="col-span-6 flex justify-end">
-                            <Image src={"/img/vps.webp"} alt="vps" width={500} height={500} />
+                        <div className="md:col-span-6 flex justify-end">
+                            <Image className="hidden md:block" src={"/img/vps.webp"} alt="vps" width={500} height={500} />
                         </div>
                     </div>
                 </div>
