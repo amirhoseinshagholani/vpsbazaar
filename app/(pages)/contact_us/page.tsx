@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Contact_usForm from "./contact_usFotm";
+import Link from "next/link";
 
 const Contact_us = () => {
 
@@ -7,7 +8,7 @@ const Contact_us = () => {
         <>
             <div className="bg-white w-full h-full p-10 rounded-3xl">
                 <div className="text-sm vazirfont-regular text-gray-600">
-                    <span className="m-1">خانه</span>/<span className="m-1">تماس با ما</span>
+                    <Link href="/"><span className="m-1 text-blue-600">خانه</span></Link>/<span className="m-1">تماس با ما</span>
                 </div>
                 <section className="container mx-auto mt-10">
                     <h1 className="vazirfont-bold text-2xl text-gray-800">تماس با ما</h1>

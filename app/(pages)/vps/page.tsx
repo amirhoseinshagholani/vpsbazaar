@@ -6,12 +6,12 @@ import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 
-const Services = () => {
+const Wordpress = () => {
     return (
         <>
             <div className="bg-white w-full h-full p-10 rounded-3xl">
                 <div className="text-sm vazirfont-regular text-gray-600">
-                    <span className="m-1">خانه</span>/<span className="m-1">سرور مجازی</span>
+                    <Link href="/"><span className="m-1 text-blue-600">خانه</span></Link>/<span className="m-1">سرور مجازی</span>
                 </div>
                 <section className="container mx-auto mt-10">
                     <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی</h1>
@@ -220,4 +220,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default Wordpress;

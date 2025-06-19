@@ -11,7 +11,7 @@ const Mikrotik = () => {
         <>
             <div className="bg-white w-full h-full p-10 rounded-3xl">
                 <div className="text-sm vazirfont-regular text-gray-600">
-                    <span className="m-1">خانه</span>/<span className="m-1">سرویس ها</span>/<span className="m-1">سرور مجازی میکروتیک</span>
+                    <Link href="/"><span className="m-1 text-blue-600">خانه</span></Link>/<Link href="/vps"><span className="m-1 text-blue-600">سرویس ها</span></Link>/<span className="m-1">سرور مجازی میکروتیک</span>
                 </div>
                 <section className="container mx-auto mt-10">
                     <h1 className="vazirfont-bold text-2xl text-gray-800">سرور مجازی میکروتیک (MikroTik VPS) با دسترسی کامل و پایداری بالا</h1>
