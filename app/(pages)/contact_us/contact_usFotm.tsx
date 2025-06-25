@@ -36,25 +36,25 @@ const Contact_usForm = () => {
     return (
         <>
             <form>
-                <div className="p-10 rounded-xl outline-gray-300 w-full">
+                <div className="md:p-10 rounded-xl outline-gray-300 w-full">
                     <div className="flex gap-2 grid grid-cols-12">
-                        <label className="text-nowrap col-span-2" htmlFor="name">نام: </label>
-                        <input onChange={(e) => setName(e.target.value)} value={name} id="name" name="name" className="outline-1 text-sm p-1 col-span-10 outline-gray-400 h-8 w-full rounded-lg" type=" text" />
+                        <label className="text-nowrap col-span-2 hidden md:block" htmlFor="name">نام: </label>
+                        <input onChange={(e) => setName(e.target.value)} value={name} id="name" name="name" placeholder="نام خود را وارد کنید" className="outline-1 text-sm p-1 col-span-12 md:col-span-10 outline-gray-400 h-8 w-full rounded-lg" type=" text" />
                     </div>
                     <div className="flex gap-2 mt-4 grid grid-cols-12">
-                        <label className="text-nowrap col-span-2  flex " htmlFor="lastname">نام خانوادگی: </label>
-                        <input onChange={(e) => setLastName(e.target.value)} value={lastName} id="lastname" name="lastname" className="outline-1 text-sm p-1 col-span-10 outline-gray-400 h-8 w-full rounded-lg" type=" text" />
+                        <label className="text-nowrap col-span-2 hidden md:block" htmlFor="lastname">نام خانوادگی: </label>
+                        <input onChange={(e) => setLastName(e.target.value)} value={lastName} id="lastname" name="lastname" placeholder="نام خانوادگی خود را وارد کنید" className="outline-1 text-sm p-1 col-span-12 md:col-span-10 outline-gray-400 h-8 w-full rounded-lg" type=" text" />
                     </div>
                     <div className="flex gap-2 mt-4 grid grid-cols-12">
-                        <label className="text-nowrap col-span-2  flex" htmlFor="subject">موضوع: </label>
-                        <input onChange={(e) => setSubject(e.target.value)} value={subject} id="subject" name="subject" className="outline-1 text-sm p-1 col-span-10 outline-gray-400 h-8 w-full rounded-lg" type=" text" />
+                        <label className="text-nowrap col-span-2 hidden md:block" htmlFor="subject">موضوع: </label>
+                        <input onChange={(e) => setSubject(e.target.value)} value={subject} id="subject" name="subject" placeholder="موضوع پیام را وارد کنید" className="outline-1 text-sm p-1 col-span-12 md:col-span-10 outline-gray-400 h-8 w-full rounded-lg" type=" text" />
                     </div>
                     <div className="flex gap-2  mt-4 grid grid-cols-12">
-                        <label className="text-nowrap col-span-2 flex" htmlFor="message">پیام: </label>
-                        <textarea onChange={(e) => setMessage(e.target.value)} value={message} id="message" name="message" className="outline-1 text-sm p-1 col-span-10 outline-gray-400 h-20 w-full rounded-lg" />
+                        <label className="text-nowrap col-span-2 hidden md:block" htmlFor="message">پیام: </label>
+                        <textarea onChange={(e) => setMessage(e.target.value)} value={message} id="message" name="message" placeholder="متن پیام را وارد کنید" className="outline-1 text-sm p-1 col-span-12 md:col-span-10 outline-gray-400 h-20 w-full rounded-lg" />
                     </div>
                     <div className="flex  justify-end mt-3">
-                        <button onClick={() => submit_form()} type="button" className="bg-green-500  p-2 pr-4 pl-4 text-sm rounded-sm">ارسال پیام</button>
+                        <button onClick={() => submit_form()} type="button" className="bg-green-600 text-white  p-2 pr-4 pl-4 text-sm rounded-sm">ارسال پیام</button>
                     </div>
                 </div>
             </form>
