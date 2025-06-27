@@ -84,7 +84,7 @@ const DesktopHeaderMenu = () => {
 
 
                     <li>
-                        <Link href="#">
+                        <Link href="/blogs">
                             <div className="flex w-28 text-nowrap justify-center h-full vazirfont-bold text-white rounded-t-2xl transition-transform duration-300 hover:scale-105 hover:-rotate-2">
                                 مقالات
                             </div>

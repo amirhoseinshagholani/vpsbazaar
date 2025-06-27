@@ -54,7 +54,7 @@ const Contact_usForm = () => {
                         <textarea onChange={(e) => setMessage(e.target.value)} value={message} id="message" name="message" placeholder="متن پیام را وارد کنید" className="outline-1 text-sm p-1 col-span-12 md:col-span-10 outline-gray-400 h-20 w-full rounded-lg" />
                     </div>
                     <div className="flex  justify-end mt-3">
-                        <button onClick={() => submit_form()} type="button" className="bg-green-600 text-white  p-2 pr-4 pl-4 text-sm rounded-sm">ارسال پیام</button>
+                        <button onClick={() => submit_form()} type="button" className="bg-green-600 hover:bg-green-700 text-white  p-2 pr-4 pl-4 text-sm rounded-sm">ارسال پیام</button>
                     </div>
                 </div>
             </form>

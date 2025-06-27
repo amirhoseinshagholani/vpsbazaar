@@ -15,7 +15,7 @@ const Header = () => {
                         <ul className="flex h-fit gap-2">
                             <li className="ml-auto">
                                 <Link href="#">
-                                    <div className="flex w-20 p-1 text-nowrap justify-center h-full vazirfont-medium text-sm bg-white rounded-2xl text-black">
+                                    <div className="flex w-20 p-1 text-nowrap justify-center h-full vazirfont-medium text-sm bg-white hover:bg-gray-200 rounded-2xl text-black">
                                         <span className="pt-1">ورود به پنل</span>
                                     </div>
                                 </Link>

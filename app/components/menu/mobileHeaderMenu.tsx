@@ -59,7 +59,7 @@ const MobileHeaderMenu = () => {
                         <Link href="/vps" className="block w-full">سرویس‌ها</Link>
                     </li>
                     <li className="w-full py-2">
-                        <Link href="/articles" className="block w-full">مقالات</Link>
+                        <Link href="/blogs" className="block w-full">مقالات</Link>
                     </li>
                     <li className="w-full py-2">
                         <Link href="/about_us" className="block w-full">درباره ما</Link>
