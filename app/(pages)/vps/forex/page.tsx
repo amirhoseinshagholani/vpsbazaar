@@ -6,8 +6,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
+import SelectService from "../components/selectService";
 
-const Forex = () => { 
+const Forex = () => {
     return (
         <>
             <main className="bg-white w-full h-full p-10 rounded-3xl">
@@ -24,7 +25,7 @@ const Forex = () => {
                                 <span className="text-4xl">☁️</span>
                                 <h2 className="text-lg md:text-2xl vazirfont-bold text-blue-800">
                                     خدمات ما
-                                </h2> 
+                                </h2>
                             </div>
                             <div className="grid grid-cols-12 mt-10 gap-7 md:gap-0">
                                 <Services category="forex" />
@@ -66,7 +67,7 @@ const Forex = () => {
                                             اگر به‌تازگی وارد دنیای فارکس شده‌اید یا در حال آزمایش استراتژی‌های معاملاتی خود هستید، سرویس Flex یک گزینه‌ی هوشمندانه و مقرون‌به‌صرفه برای شماست. این سرویس با منابع متعادل، امکان اجرای نرم‌افزارهای معاملاتی مانند متاتریدر را در محیطی پایدار و بدون قطعی فراهم می‌کند. برای تریدرهایی که هنوز در مراحل اولیه مسیر حرفه‌ای خود قرار دارند یا قصد دارند ربات‌ها و اکسپرت‌های سبک را آزمایش کنند، Flex می‌تواند نقطه‌ی شروعی امن و اقتصادی باشد.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="flex" />
                                         </div>
                                     </div>
 
@@ -91,7 +92,7 @@ const Forex = () => {
                                             برای تریدرهایی که تجربه‌ی اولیه را پشت سر گذاشته‌اند و حالا به‌دنبال منابع بیشتر، عملکرد پایدارتر و فضای کاری گسترده‌تری هستند، سرویس Solo یک انتخاب ایده‌آل است. این پلن برای معامله‌گرانی طراحی شده که در مسیر پیشرفت قرار دارند و می‌خواهند بدون نگرانی از محدودیت‌های سخت‌افزاری، چند حساب معاملاتی، اکسپرت یا نرم‌افزار متاتریدر را به‌صورت هم‌زمان اجرا کنند.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="solo" />
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +110,7 @@ const Forex = () => {
                                             اگر در دنیای ترید حرفه‌ای فعالیت می‌کنید و کوچک‌ترین تأخیر یا ناپایداری می‌تواند برایتان گران تمام شود، سرویس Pro دقیقاً همان زیرساختی است که به آن نیاز دارید. این پلن با منابع قدرتمند و پایدار، به‌گونه‌ای طراحی شده که پاسخگوی اجرای هم‌زمان چند متاتریدر، ربات‌های معاملاتی پیشرفته، ابزارهای تحلیلی سنگین و استراتژی‌های اسکالپینگ با حساسیت بالا باشد. اگر به دنبال یک سرور مجازی واقعی برای معاملات جدی، مدیریت پیشرفته ریسک و اجرای دقیق استراتژی‌های روز دنیا هستید، سرویس Pro انتخابی حرفه‌ای و بی‌رقیب برای شماست.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="pro" />
                                         </div>
                                     </div>
                                 </div>

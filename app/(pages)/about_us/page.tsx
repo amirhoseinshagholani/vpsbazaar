@@ -1,5 +1,54 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
+import Head from "next/head";
+
+export const metadata: Metadata = {
+    title: "درباره ما | VPSBazaar - ارائه‌دهنده سرور مجازی با کیفیت",
+    description:
+        "VPSBazaar با هدف ارائه سرورهای مجازی پرسرعت، پایدار و مقرون‌به‌صرفه راه‌اندازی شد. ما با پشتیبانی ۲۴ ساعته و تحویل آنی، بستری حرفه‌ای برای میزبانی پروژه‌های آنلاین شما فراهم کرده‌ایم.",
+    keywords:
+        "درباره وی پی اس بازار, VPSBazaar, فروش سرور مجازی, تیم پشتیبانی VPS, وی پی اس ارزان, خرید سرور مجازی",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/about_us",
+        title: "درباره ما | VPSBazaar - ارائه‌دهنده سرور مجازی با کیفیت",
+        description:
+            "VPSBazaar با هدف ارائه سرورهای مجازی پرسرعت، پایدار و مقرون‌به‌صرفه راه‌اندازی شد. ما با پشتیبانی ۲۴ ساعته و تحویل آنی، بستری حرفه‌ای برای میزبانی پروژه‌های آنلاین شما فراهم کرده‌ایم.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/og-image.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - فروش VPS و سرور مجازی",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "درباره ما | VPSBazaar - ارائه‌دهنده سرور مجازی با کیفیت",
+        description:
+            "آشنایی با اهداف و خدمات VPSBazaar در زمینه ارائه سرورهای مجازی سریع، پایدار و مقرون‌به‌صرفه با پشتیبانی حرفه‌ای.",
+        images: ["https://vpsbazaar.cloud/img/og-image.webp"],
+    },
+    icons: {
+        icon: [
+            { url: "/img/favicon.ico", sizes: "any" },
+            { url: "/img/favicon-32x32.webp", sizes: "32x32", type: "image/webp" },
+            { url: "/img/favicon-16x16.webp", sizes: "16x16", type: "image/webp" },
+        ],
+        apple: "/img/apple-touch-icon.webp",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
+
 
 const About_us = () => {
     return (

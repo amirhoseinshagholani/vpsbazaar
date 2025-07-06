@@ -6,6 +6,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
+import SelectService from "../components/selectService";
 
 const Wordpress = () => {
     return (
@@ -64,7 +65,7 @@ const Wordpress = () => {
                                             سرویس Flex برای کسانی طراحی شده که به‌تازگی وارد دنیای وردپرس شده‌اند یا وب‌سایت‌های سبک، شخصی یا آموزشی راه‌اندازی کرده‌اند. این پلن منابع مناسبی برای میزبانی یک سایت وردپرسی با ترافیک کم تا متوسط فراهم می‌کند و در عین حال امکان ارتقاء آسان را نیز در اختیار شما قرار می‌دهد. اگر به‌دنبال یک نقطه شروع اقتصادی با امکانات پایه و عملکرد پایدار هستید، Flex انتخابی منطقی و مطمئن است.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="flex" />
                                         </div>
                                     </div>
                                 </div>
@@ -88,7 +89,7 @@ const Wordpress = () => {
                                             اگر سایت وردپرسی شما ترافیک بیشتری دارد، از افزونه‌های پیشرفته استفاده می‌کند یا فروشگاه اینترنتی ووکامرس روی آن فعال است، سرویس Solo برای شما طراحی شده. این پلن با منابع بیشتر و عملکرد قدرتمندتر، می‌تواند چندین افزونه بهینه‌ساز، سیستم کش حرفه‌ای و حتی سامانه‌های ایمیل یا گزارش‌گیری را بدون افت کیفیت اجرا کند. Solo انتخاب مناسبی برای سایت‌های در حال رشد و کسب‌وکارهایی است که به سرعت و پایداری اهمیت می‌دهند.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="solo" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +107,7 @@ const Wordpress = () => {
                                             برای وب‌سایت‌های پرترافیک، فروشگاه‌های بزرگ، یا کسب‌وکارهایی که امنیت، سرعت بارگذاری و انعطاف‌پذیری بالا برایشان حیاتی‌ست، سرویس Pro طراحی شده است. این پلن با منابع اختصاصی قوی، اجرای بی‌وقفه، و سازگاری کامل با بهینه‌سازهای وردپرس، پاسخگوی نیاز کاربران حرفه‌ای است. با Pro می‌توانید وب‌سایتی با سرعت فوق‌العاده، امنیت سطح بالا و زیرساخت قابل توسعه داشته باشید که همیشه آماده پاسخ‌گویی به کاربران شماست.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="pro" />
                                         </div>
                                     </div>
                                 </div>

@@ -9,7 +9,7 @@ const Services = ({category}:{category:string}) => {
     return (
         <>
             <div dir="ltr" className="col-span-12 md:col-span-4 outline-1 rounded-2xl w-full md:w-3/4 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
-                <Link href="#">
+                <Link href="https://my.vpsbazaar.cloud/index.php?rp=/store/vps/flex">
                     <h3 dir="rtl" className="vazirfont-bold text-md mb-2 text-nowrap">
                         نام سرویس: Flex {category ? category : ""}
                     </h3>
@@ -42,7 +42,7 @@ const Services = ({category}:{category:string}) => {
                 </Link>
             </div>
             <div dir="ltr" className="col-span-12 md:col-span-4 outline-1 rounded-2xl w-full md:w-3/4 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
-                <Link href="#">
+                <Link href="https://my.vpsbazaar.cloud/index.php?rp=/store/vps/solo">
                     <h3 dir="rtl" className="vazirfont-bold text-md mb-2 text-nowrap">
                         نام سرویس: Solo {category ? category : ""}
                     </h3>
@@ -75,7 +75,7 @@ const Services = ({category}:{category:string}) => {
                 </Link>
             </div>
             <div dir="ltr" className="col-span-12 md:col-span-4 outline-1 rounded-2xl w-full md:w-3/4 outline-blue-600 shadow-lg hover:shadow-2xl hover:bg-gray-100 mx-auto p-5">
-                <Link href="#">
+                <Link href="https://my.vpsbazaar.cloud/index.php?rp=/store/vps/pro">
                     <h3 dir="rtl" className="vazirfont-bold text-md mb-2 text-nowrap">
                         نام سرویس: Pro {category ? category : ""}
                     </h3>

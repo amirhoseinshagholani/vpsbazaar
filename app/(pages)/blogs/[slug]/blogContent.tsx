@@ -22,7 +22,7 @@ type Blog = {
 type Blog_tags = {
     id: number
     title: string
-    slug:string
+    slug: string
 }
 
 type Props = {
@@ -35,10 +35,11 @@ const BlogContent = ({ blog, blog_tags }: Props) => {
         <>
             <h1 className="vazirfont-bold text-2xl text-gray-800">{blog.title}</h1>
             <div className="vazirfont-regular text-xs mt-4 flex gap-1">
-                <span>موضوعات مرتبط: </span>
-                {
-                    blog_tags.map((tag) => (
-                        <Link key={tag.id} href={`/tags/${tag.slug}`}><span  className="text-blue-600">#{tag.title}</span></Link>
+                {blog_tags.length && (
+                    <span>موضوعات مرتبط: </span>
+                )}                {
+                    blog_tags.length && blog_tags?.map((tag) => (
+                        <Link key={tag.id} href={`/tags/${tag.slug}`}><span className="text-blue-600">#{tag.title}</span></Link>
                     ))
                 }
             </div>

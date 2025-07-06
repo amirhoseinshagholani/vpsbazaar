@@ -6,6 +6,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
+import SelectService from "../components/selectService";
 
 const Linux = () => {
     return (
@@ -64,7 +65,7 @@ const Linux = () => {
                                             اگر تازه وارد دنیای لینوکس شده‌اید یا به دنبال محیطی سبک و اقتصادی برای تمرین و آزمایش اسکریپت‌ها و دستورات هستید، سرویس Flex می‌تواند گزینه‌ای عالی برای شروع باشد. این پلن با منابع متعادل، بستری ساده و کاربردی را فراهم می‌کند تا بتوانید انواع توزیع‌های لینوکسی را نصب و بدون دغدغه تست کنید. برای دانشجویان، علاقه‌مندان به DevOps و کاربرانی که قصد یادگیری مدیریت سرور با لینوکس را دارند، Flex شروعی ایمن، کم‌هزینه و مؤثر است.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="flex" />
                                         </div>
                                     </div>
 
@@ -89,7 +90,7 @@ const Linux = () => {
                                             وقتی پروژه‌های شما بزرگ‌تر می‌شوند و نیاز به منابع بیشتری برای اجرای سرویس‌ها، دیتابیس‌ها یا فرآیندهای بک‌اند پیدا می‌کنید، سرویس Solo پاسخگوی نیاز شماست. این سرور برای توسعه‌دهنده‌هایی طراحی شده که با ابزارهای لینوکسی کار می‌کنند، Git را به‌صورت حرفه‌ای استفاده می‌کنند، و قصد دارند محیطی پایدار برای اجرای پروژه‌های واقعی داشته باشند. چه بخواهید Node.js، Python، PHP یا سایر زبان‌های لینوکسی را اجرا کنید، Solo با منابع قدرتمندتر، آزادی بیشتری به شما می‌دهد تا اپلیکیشن‌های خود را مدیریت و توسعه دهید.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="solo" />
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +108,7 @@ const Linux = () => {
                                             اگر از کاربران حرفه‌ای لینوکس هستید، اسکریپت‌های پیچیده اجرا می‌کنید، چندین سرویس هم‌زمان روی سرورتان دارید یا به دنبال یک محیط مطمئن برای هاستینگ سطح بالا هستید، سرویس Pro برای شما ساخته شده. این پلن با منابع پیشرفته، عملکرد پایدار و سرعت بالا، امکان مدیریت حرفه‌ای پروژه‌های لینوکسی را فراهم می‌کند. از اجرای کانتینرهای Docker گرفته تا مدیریت سرورهای تولیدی برای مشتریان، در سرویس Pro هیچ محدودیتی برای استفاده از قدرت لینوکس نخواهید داشت. محیطی امن، سریع و همیشه در دسترس برای کسانی که به کیفیت اهمیت می‌دهند.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="pro" />
                                         </div>
                                     </div>
                                 </div>

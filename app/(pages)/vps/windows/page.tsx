@@ -6,6 +6,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
+import SelectService from "../components/selectService";
 
 const Windows = () => {
     return (
@@ -64,7 +65,7 @@ const Windows = () => {
                                             اگر به‌دنبال یک سرور ویندوزی مقرون‌به‌صرفه هستید که نیازهای ابتدایی شما را برآورده کند، سرویس Flex می‌تواند شروع مناسبی باشد. این پلن مخصوص کسانی طراحی شده که قصد دارند نرم‌افزارهای سبک ویندوزی، مرورگر یا ابزارهای اتوماسیون ساده را روی محیطی همیشه روشن و در دسترس اجرا کنند. اتصال Remote Desktop سریع، پایداری مناسب و مصرف بهینه منابع باعث شده تا Flex به انتخابی محبوب برای کاربران تازه‌کار، دانشجویان و پروژه‌های آزمایشی تبدیل شود.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="flex" />
                                         </div>
                                     </div>
 
@@ -89,7 +90,7 @@ const Windows = () => {
                                             سرویس Solo مخصوص کاربرانی‌ست که به منابع قوی‌تری برای اجرای نرم‌افزارهای حرفه‌ای ویندوزی نیاز دارند. چه بخواهید یک اپلیکیشن مالی همیشه فعال را روی سرور داشته باشید، چه بخواهید چندین ابزار مختلف را به‌صورت هم‌زمان اجرا کنید، Solo به‌خوبی از پس نیازهای شما برمی‌آید. این پلن برای فریلنسرها، مدیران پروژه، و بیزینس‌های در حال رشد که به یک محیط پایدار و امن ویندوزی نیاز دارند، انتخابی دقیق و کاربردی است.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="solo" />
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +108,7 @@ const Windows = () => {
                                             اگر به‌دنبال یک سرور ویندوزی حرفه‌ای با منابع قدرتمند، عملکرد سریع و پایداری بی‌وقفه هستید، سرویس Pro دقیقاً برای شما طراحی شده است. این پلن برای اجرای هم‌زمان چند برنامه سنگین، نرم‌افزارهای تحلیلی، ربات‌های اتوماسیون، یا حتی میزبانی فایل و خدمات از راه دور ایده‌آل است. با دسترسی کامل از طریق RDP و امکان ارتقاء منابع بدون نیاز به مهاجرت، Pro بهترین گزینه برای کاربران حرفه‌ای، شرکت‌ها و پروژه‌های حساس محسوب می‌شود.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="pro" />
                                         </div>
                                     </div>
                                 </div>

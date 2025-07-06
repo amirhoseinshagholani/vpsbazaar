@@ -6,6 +6,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
+import SelectService from "../components/selectService";
 
 const Ssh = () => {
     return (
@@ -62,7 +63,7 @@ const Ssh = () => {
                                             سرویس Flex انتخابی مناسب برای کاربران تازه‌کار، دانشجویان یا برنامه‌نویسانی است که در آغاز مسیر یادگیری کار با SSH و مدیریت سرورهای لینوکسی هستند. این پلن با منابع متعادل، قیمت اقتصادی و دسترسی کامل SSH، محیطی ساده و قابل اطمینان برای نصب ابزارها، اجرای اسکریپت‌ها و انجام تنظیمات پایه فراهم می‌کند. اگر می‌خواهید اولین تجربه‌ی خود را در دنیای مدیریت از طریق ترمینال شروع کنید، Flex گزینه‌ای عالی برای شروع امن و بدون پیچیدگی است.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="flex" />
                                         </div>
                                     </div>
 
@@ -87,7 +88,7 @@ const Ssh = () => {
                                             برای کاربران نیمه‌حرفه‌ای یا مدیران پروژه‌هایی که نیاز به منابع بیشتر و عملکرد باثبات‌تری دارند، سرویس Solo پاسخی دقیق به این نیازهاست. با دسترسی کامل SSH و منابع اختصاصی بیشتر، این پلن امکان اجرای برنامه‌های سمت سرور، راه‌اندازی اپلیکیشن‌های تحت Node.js یا Python و مدیریت بهتر تنظیمات امنیتی را فراهم می‌کند. اگر در حال توسعه یا نگهداری سرویس‌هایی با ترافیک متوسط هستید، Solo آزادی عملی بیشتر همراه با پایداری بالاتر در اختیارتان می‌گذارد.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="solo" />
                                         </div>
                                     </div>
                                 </div>
@@ -105,7 +106,7 @@ const Ssh = () => {
                                             برای توسعه‌دهندگان حرفه‌ای، تیم‌های DevOps و کسانی که به‌دنبال محیطی قدرتمند برای مدیریت چند سرویس، اتوماسیون وظایف و اجرای پروژه‌های سنگین‌تر هستند، سرویس Pro انتخابی بی‌نقص است. با منابع بالا، عملکرد پایدار و دسترسی کامل از طریق SSH، این پلن امکان استقرار سریع برنامه‌ها، مانیتورینگ دائم، بهینه‌سازی سیستم و اعمال سیاست‌های امنیتی پیشرفته را فراهم می‌کند. اگر به‌دنبال تجربه‌ای حرفه‌ای و بدون محدودیت در محیط لینوکسی هستید، سرویس Pro دقیقاً همان چیزی‌ست که به دنبالش بودید.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="pro" />
                                         </div>
                                     </div>
                                 </div>

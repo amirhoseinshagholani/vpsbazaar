@@ -6,6 +6,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
+import SelectService from "../components/selectService";
 
 const Mikrotik = () => {
     return (
@@ -64,7 +65,7 @@ const Mikrotik = () => {
                                             اگر در ابتدای مسیر یادگیری شبکه یا تنظیمات MikroTik هستید، سرویس Flex یک انتخاب اقتصادی و قابل اعتماد برای شماست. این پلن با منابع پایه و قیمت مقرون‌به‌صرفه، امکان اجرای نسخه کامل RouterOS را بدون نیاز به تجهیزات فیزیکی فراهم می‌کند. برای دانشجویان، کارآموزان، یا کسانی که می‌خواهند سناریوهای ساده مانند راه‌اندازی VPN یا تست NAT را تمرین کنند، Flex شروعی عالی و بی‌دردسر است. شما می‌توانید با دسترسی کامل به محیط میکروتیک، با خیال راحت یاد بگیرید، تنظیم کنید و تجربه کسب کنید.
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="flex" />
                                         </div>
                                     </div>
 
@@ -90,7 +91,7 @@ const Mikrotik = () => {
 
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="solo" />
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +110,7 @@ const Mikrotik = () => {
 
                                         </p>
                                         <div className="text-justify justify-end vazirfont-regular text-gray-700  mx-auto text-lg w-full md:w-2/3 mt-3">
-                                            <Link className="bg-[#c92e93] text-white p-1 pl-4 pr-3 rounded-l-4xl" href="#">سفارش دهید</Link>
+                                            <SelectService category="pro" />
                                         </div>
                                     </div>
                                 </div>

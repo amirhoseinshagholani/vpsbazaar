@@ -27,7 +27,7 @@ const Tags = async ({ params }: { params: { slug: string } }) => {
         <>
             <main className="bg-white w-full h-full p-10 rounded-3xl">
                 <div className="text-sm vazirfont-regular text-gray-600">
-                    <Link href="/"><span className="m-1 text-blue-600">خانه</span></Link>/<Link href="#"><span className="m-1">تگ ها</span></Link>
+                    <Link href="/"><span className="m-1 text-blue-600">خانه</span></Link>/<Link href="/tags"><span className="m-1 text-blue-600">تگ ها</span></Link>/<span className="m-1">{decodeURIComponent(params.slug)}</span>
                 </div>
                 <section className="container mx-auto mt-10">
                     <h1 className="vazirfont-bold text-2xl text-gray-800">موضوعات مرتبط با <span className="text-blue-600">#{decodeURIComponent(params.slug)}</span></h1>

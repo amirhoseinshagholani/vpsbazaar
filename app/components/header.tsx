@@ -14,7 +14,7 @@ const Header = () => {
                         <MobileHeaderMenu />
                         <ul className="flex h-fit gap-2">
                             <li className="ml-auto">
-                                <Link href="#">
+                                <Link href="https://my.vpsbazaar.cloud/index.php?rp=/login">
                                     <div className="flex w-20 p-1 text-nowrap justify-center h-full vazirfont-medium text-sm bg-white hover:bg-gray-200 rounded-2xl text-black">
                                         <span className="pt-1">ورود به پنل</span>
                                     </div>
@@ -22,7 +22,7 @@ const Header = () => {
                             </li>
                             <li className="ml-auto">
                                 <div className="flex gap-1 w-fit p-2 text-nowrap justify-center h-full vazirfont-medium text-xs bg-white rounded-2xl text-black">
-                                    <span className="pt-1">021-66554477</span>
+                                    <span className="pt-1">021-91095238</span>
                                     <span>
                                         <Link href="/">
                                             <Image src={logo} alt="logo" width={25} height={25} />
