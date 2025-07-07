@@ -1,4 +1,5 @@
 
+import { Metadata } from "next";
 import Link from "next/link";
 
 type Blog_tags = {
@@ -6,6 +7,43 @@ type Blog_tags = {
     title: string
     slug: string
 }
+
+export const metadata: Metadata = {
+    title: "لیست تگ‌های مقالات | VPSBazaar",
+    description: "لیست کامل تگ‌های مقالات VPSBazaar برای دسترسی سریع به مقالات تخصصی درباره VPS، سرور مجازی و مدیریت سرور.",
+    keywords: "تگ مقالات, لیست تگ ها, VPS, سرور مجازی, آموزش VPS, VPSBazaar",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/tags",
+        title: "لیست تگ‌های مقالات | VPSBazaar",
+        description: "مشاهده لیست کامل تگ‌های مقالات VPSBazaar برای دسترسی آسان به آموزش‌ها و مقالات تخصصی VPS و سرور مجازی.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/og-image.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - لیست تگ های مقالات",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "لیست تگ‌های مقالات | VPSBazaar",
+        description: "مشاهده لیست کامل تگ‌های مقالات VPSBazaar و دسترسی آسان به آموزش‌ها و مقالات VPS.",
+        images: ["https://vpsbazaar.cloud/img/og-image.webp"],
+    },
+    alternates: {
+        canonical: "/tags",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
 
 
 const Tags = async () => {

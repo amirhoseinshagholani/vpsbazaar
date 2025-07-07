@@ -1,12 +1,46 @@
-// import formatNumber from "@/functions/formatNumber";
-// import CpuSvg from "@/public/svg/cpuSvg";
-// import RamSvg from "@/public/svg/ramSvg";
-// import SsdSvg from "@/public/svg/ssdSvg";
-// import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
 import SelectService from "../components/selectService";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "خرید سرور مجازی با دسترسی SSH | Flex SSH، Flex Solo و Flex Pro | VPSBazaar",
+    description: "خرید VPS با دسترسی کامل SSH برای مدیریت حرفه‌ای سرور، اجرای دستورات لینوکسی و خودکارسازی فرآیندها. سرویس‌های Flex SSH، Flex Solo و Flex Pro مناسب توسعه‌دهندگان و مدیران سرور.",
+    keywords: "سرور مجازی SSH, خرید VPS با SSH, سرور لینوکس با دسترسی روت, Flex SSH, Solo SSH, Pro SSH, اتصال SSH, ترمینال لینوکس, مدیریت سرور, VPSBazaar",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/vps/ssh",
+        title: "خرید سرور مجازی با دسترسی SSH | Flex SSH، Solo SSH و Pro SSH | VPSBazaar",
+        description: "سرور مجازی لینوکس با دسترسی SSH و پشتیبانی کامل از دستورات ترمینال. مناسب برای اسکریپت‌نویسی، مدیریت سرور و توسعه‌ی پروژه‌های تحت CLI.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/ssh/og-ssh-vps.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - سرور مجازی با SSH",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "خرید سرور مجازی با دسترسی SSH | Flex SSH، Solo SSH و Pro SSH | VPSBazaar",
+        description: "VPS با دسترسی کامل SSH برای مدیریت، توسعه و اجرای دستورات لینوکس. گزینه‌ای عالی برای حرفه‌ای‌ها.",
+        images: ["https://vpsbazaar.cloud/img/og-ssh-vps.webp"],
+    },
+    alternates: {
+        canonical: "/vps/ssh",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
+
 
 const Ssh = () => {
     return (

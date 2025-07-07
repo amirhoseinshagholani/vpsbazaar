@@ -1,6 +1,56 @@
 import Image from "next/image";
 import Contact_usForm from "./contact_usFotm";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "تماس با ما | VPSBazaar - ارتباط سریع با پشتیبانی",
+    description:
+        "از طریق صفحه تماس با ما VPSBazaar می‌توانید با تیم پشتیبانی حرفه‌ای ما در ارتباط باشید و سوالات خود درباره خرید سرور مجازی و خدمات ما را مطرح کنید.",
+    keywords:
+        "تماس با وی پی اس بازار, VPSBazaar, ارتباط با پشتیبانی, پشتیبانی VPS, خرید سرور مجازی, وی پی اس ارزان",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/contact_us",
+        title: "تماس با ما | VPSBazaar - ارتباط سریع با پشتیبانی",
+        description:
+            "از طریق صفحه تماس با ما VPSBazaar می‌توانید با تیم پشتیبانی ما ارتباط برقرار کنید و سوالات خود درباره خرید سرور مجازی و خدمات ما را مطرح نمایید.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/og-image.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - تماس با ما",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "تماس با ما | VPSBazaar - ارتباط سریع با پشتیبانی",
+        description:
+            "از طریق صفحه تماس با ما VPSBazaar می‌توانید با تیم پشتیبانی ما ارتباط برقرار کرده و سوالات خود درباره خرید VPS و سرور مجازی را مطرح نمایید.",
+        images: ["https://vpsbazaar.cloud/img/og-image.webp"],
+    },
+    alternates: {
+        canonical: "/contact_us",
+    },
+    icons: {
+        icon: [
+            { url: "/img/favicon.ico", sizes: "any" },
+            { url: "/img/favicon-32x32.webp", sizes: "32x32", type: "image/webp" },
+            { url: "/img/favicon-16x16.webp", sizes: "16x16", type: "image/webp" },
+        ],
+        apple: "/img/apple-touch-icon.webp",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
 
 const Contact_us = () => {
 

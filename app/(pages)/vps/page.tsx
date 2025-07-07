@@ -1,12 +1,46 @@
-// import formatNumber from "@/functions/formatNumber";
-// import CpuSvg from "@/public/svg/cpuSvg";
-// import RamSvg from "@/public/svg/ramSvg";
-// import SsdSvg from "@/public/svg/ssdSvg";
-// import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 import Services from "./components/services";
 import SelectService from "./components/selectService";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "خرید سرور مجازی | سرویس‌های Flex، Solo و Pro | VPSBazaar",
+    description: "خرید سرور مجازی با کیفیت و قیمت مناسب از VPSBazaar. انتخاب از میان سرویس‌های Flex، Solo و Pro متناسب با نیازهای شما در مدیریت سرور.",
+    keywords: "خرید سرور مجازی, VPS, سرور مجازی ایران, سرور مجازی لینوکس, سرور مجازی ویندوز, سرویس Flex, سرویس Solo, سرویس Pro, VPSBazaar",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/vps",
+        title: "خرید سرور مجازی | سرویس‌های Flex، Solo و Pro | VPSBazaar",
+        description: "با سرویس‌های متنوع Flex، Solo و Pro از VPSBazaar، سرور مجازی مناسب نیازتان را انتخاب و تهیه کنید.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/og-image.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - خرید سرور مجازی",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "خرید سرور مجازی | سرویس‌های Flex، Solo و Pro | VPSBazaar",
+        description: "انتخاب آسان سرور مجازی از بین سرویس‌های Flex، Solo و Pro با کیفیت بالا و پشتیبانی قوی از VPSBazaar.",
+        images: ["https://vpsbazaar.cloud/img/og-products.webp"],
+    },
+    alternates: {
+        canonical: "/vps",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
+
 
 const Vps = () => {
     return (

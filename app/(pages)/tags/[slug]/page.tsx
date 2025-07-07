@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 
 type Blog = {
     id: number
@@ -16,8 +17,51 @@ type Blog = {
     study_time: number
     created_at: string
     updated_at: string
-
 }
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+    const decodedSlug = decodeURIComponent(params.slug);
+
+    const tagSlug = decodedSlug;
+
+    return {
+        title: `مقالات مرتبط با ${tagSlug} | VPSBazaar`,
+        description: `لیست مقالات مرتبط با ${tagSlug} در VPSBazaar شامل آموزش‌ها، بررسی‌ها و راهنمایی‌های تخصصی برای علاقه‌مندان به VPS و سرور مجازی.`,
+        keywords: `${tagSlug}, مقالات ${tagSlug}, آموزش ${tagSlug}, VPSBazaar, سرور مجازی`,
+        metadataBase: new URL("https://vpsbazaar.cloud"),
+        robots: "index, follow",
+        openGraph: {
+            type: "website",
+            url: `https://vpsbazaar.cloud/tags/${tagSlug}`,
+            title: `مقالات مرتبط با ${tagSlug} | VPSBazaar`,
+            description: `مطالعه مقالات مرتبط با ${tagSlug} در VPSBazaar برای یادگیری و توسعه مهارت‌های مدیریت سرور مجازی و VPS.`,
+            siteName: "VPSBazaar",
+            images: [
+                {
+                    url: "https://vpsbazaar.cloud/img/og-image.webp",
+                    width: 1200,
+                    height: 630,
+                    alt: `مقالات مرتبط با ${tagSlug}`,
+                },
+            ],
+            locale: "fa_IR",
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: `مقالات مرتبط با ${tagSlug} | VPSBazaar`,
+            description: `مطالعه مقالات مرتبط با ${tagSlug} در VPSBazaar برای یادگیری و توسعه مهارت‌های مدیریت VPS و سرور مجازی.`,
+            images: ["https://vpsbazaar.cloud/img/og-image.webp"],
+        },
+        alternates: {
+            canonical: `/tags/${tagSlug}`,
+        },
+        viewport: {
+            width: "device-width",
+            initialScale: 1,
+        },
+    };
+}
+
 
 const Tags = async ({ params }: { params: { slug: string } }) => {
     const res_blogs = await fetch(`${process.env.API_URL}/api/related_blogs/${params.slug}`, { cache: 'no-store' });

@@ -1,12 +1,46 @@
-// import formatNumber from "@/functions/formatNumber";
-// import CpuSvg from "@/public/svg/cpuSvg";
-// import RamSvg from "@/public/svg/ramSvg";
-// import SsdSvg from "@/public/svg/ssdSvg";
-// import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
 import SelectService from "../components/selectService";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "خرید سرور مجازی لینوکس | Flex Linux، Solo Linux و Pro Linux | VPSBazaar",
+    description: "خرید سرور مجازی لینوکس با عملکرد بالا و پایداری فوق‌العاده از VPSBazaar. مناسب برای برنامه‌نویسان، توسعه‌دهندگان و مدیران سرور. انتخاب از میان Flex Linux، Solo Linux و Pro Linux.",
+    keywords: "سرور مجازی لینوکس, Linux VPS, خرید VPS لینوکس, Flex Linux, Solo Linux, Pro Linux, سرور لینوکس ایران, Ubuntu VPS, Debian VPS, VPSBazaar",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/vps/linux",
+        title: "خرید سرور مجازی لینوکس | Flex Linux، Solo Linux و Pro Linux | VPSBazaar",
+        description: "سرورهای مجازی لینوکس با منابع اختصاصی و دسترسی کامل روت. سازگار با توزیع‌های محبوب مانند Ubuntu و Debian. انتخاب مناسب برای متخصصین لینوکس.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/og-linux-vps.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - سرور مجازی لینوکس",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "خرید سرور مجازی لینوکس | Flex Linux، Solo Linux و Pro Linux | VPSBazaar",
+        description: "VPS لینوکس حرفه‌ای از VPSBazaar با پشتیبانی از Ubuntu، Debian، AlmaLinux و سایر توزیع‌ها. مناسب برای توسعه و میزبانی.",
+        images: ["https://vpsbazaar.cloud/img/linux/og-linux-vps.webp"],
+    },
+    alternates: {
+        canonical: "/vps/linux",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
+
 
 const Linux = () => {
     return (

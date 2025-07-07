@@ -1,12 +1,46 @@
-// import formatNumber from "@/functions/formatNumber";
-// import CpuSvg from "@/public/svg/cpuSvg";
-// import RamSvg from "@/public/svg/ramSvg";
-// import SsdSvg from "@/public/svg/ssdSvg";
-// import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
 import SelectService from "../components/selectService";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "خرید سرور مجازی میکروتیک | Flex MikroTik، Solo MikroTik و Pro MikroTik | VPSBazaar",
+    description: "خرید سرور مجازی میکروتیک با لایسنس رسمی و عملکرد پایدار از VPSBazaar. مناسب برای مدیریت شبکه، VPN، هات‌اسپات و روتینگ حرفه‌ای. ارائه در پلن‌های Flex MikroTik، Solo MikroTik و Pro MikroTik.",
+    keywords: "سرور مجازی میکروتیک, MikroTik VPS, خرید VPS MikroTik, VPS با لایسنس میکروتیک, Flex MikroTik, Solo MikroTik , Pro MikroTik, روتر مجازی, سرور هات اسپات, مدیریت شبکه, VPSBazaar",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/vps/mikrotik",
+        title: "خرید سرور مجازی میکروتیک | Flex MikroTik، Solo MikroTik و Pro MikroTik | VPSBazaar",
+        description: "سرور مجازی MikroTik با دسترسی کامل، مناسب برای راه‌اندازی VPN، هات‌اسپات، فایروال و روتر مجازی. ارائه در پلن‌های متنوع برای حرفه‌ای‌ها.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/mikrotik/og-mikrotik-vps.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - سرور مجازی MikroTik",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "خرید سرور مجازی میکروتیک | Flex MikroTik، Solo MikroTik و Pro MikroTik | VPSBazaar",
+        description: "VPS MikroTik با لایسنس معتبر و قابلیت‌های قدرتمند روتینگ و امنیت شبکه، مناسب برای راه‌اندازی سرویس‌های حرفه‌ای.",
+        images: ["https://vpsbazaar.cloud/img/og-mikrotik-vps.webp"],
+    },
+    alternates: {
+        canonical: "/vps/mikrotik",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
+
 
 const Mikrotik = () => {
     return (

@@ -1,12 +1,46 @@
-// import formatNumber from "@/functions/formatNumber";
-// import CpuSvg from "@/public/svg/cpuSvg";
-// import RamSvg from "@/public/svg/ramSvg";
-// import SsdSvg from "@/public/svg/ssdSvg";
-// import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
 import SelectService from "../components/selectService";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "خرید سرور مجازی فارکس | Flex Forex، Solo Forex و Pro Forex | VPSBazaar",
+    description: "خرید سرور مجازی مخصوص فارکس با پینگ پایین، اتصال پایدار و مناسب برای تریدرها. سرویس‌های Flex Forex، Solo Forex و Pro Forex از VPSBazaar بهترین انتخاب برای معاملات فارکس هستند.",
+    keywords: "سرور مجازی فارکس, Forex VPS, خرید VPS فارکس, سرور مخصوص فارکس, Flex Forex, Solo Forex, Pro Forex, سرور ترید, سرور مخصوص ترید, VPSBazaar",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/vps/forex",
+        title: "خرید سرور مجازی فارکس | Flex Forex، Solo Forex و Pro Forex | VPSBazaar",
+        description: "با انتخاب سرورهای مخصوص فارکس از VPSBazaar، معاملات خود را با سرعت و اطمینان بالا انجام دهید. مناسب برای MetaTrader و سایر پلتفرم‌های ترید.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/og-forex-vps.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - سرور مجازی فارکس",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "خرید سرور مجازی فارکس | Flex Forex، Solo Forex و Pro Forex | VPSBazaar",
+        description: "سرور مجازی پرسرعت و پایدار برای معاملات فارکس. ویژه تریدرها و علاقه‌مندان به بازارهای مالی جهانی.",
+        images: ["https://vpsbazaar.cloud/img/forex/og-forex-vps.webp"],
+    },
+    alternates: {
+        canonical: "/vps/forex",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
+
 
 const Forex = () => {
     return (

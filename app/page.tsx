@@ -1,6 +1,6 @@
 import LandingContent from "./components/landing/landingContent";
 import LandingHeader from "./components/landing/landingHeader";
-
+import Script from "next/script";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -73,6 +73,40 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <Script id="organization-ld-json" type="application/ld+json" strategy="afterInteractive">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "VPSBazaar",
+          "url": "https://vpsbazaar.cloud",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://vpsbazaar.cloud/img/logo.webp"
+          },
+          "description": "VPSBazaar ارائه‌دهنده سرور مجازی سریع، پایدار و مقرون‌به‌صرفه با تحویل آنی، آی‌پی ثابت و پشتیبانی ۲۴ ساعته.",
+          // "sameAs": [
+          //   "https://instagram.com/vpsbazaar",
+          //   "https://t.me/vpsbazaar"
+          // ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "telephone": "021-91095238",
+            "email": "info@vpsbazaar.cloud",
+            "areaServed": "IR",
+            "availableLanguage": ["fa"]
+          }
+        })}
+      </Script>
+
+      <Script id="website-ld-json" type="application/ld+json" strategy="afterInteractive">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "VPSBazaar",
+          "url": "https://vpsbazaar.cloud"
+        })}
+      </Script>
       <main className="">
         <LandingHeader />
         <LandingContent />

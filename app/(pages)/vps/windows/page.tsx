@@ -1,12 +1,46 @@
-// import formatNumber from "@/functions/formatNumber";
-// import CpuSvg from "@/public/svg/cpuSvg";
-// import RamSvg from "@/public/svg/ramSvg";
-// import SsdSvg from "@/public/svg/ssdSvg";
-// import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
 import SelectService from "../components/selectService";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "خرید سرور مجازی ویندوز | Flex Windows، Solo Windows، و Pro Windows | VPSBazaar",
+    description: "خرید سرور مجازی ویندوز با دسترسی Remote Desktop (RDP)، مناسب برای کارهای اداری، نرم‌افزارهای ویندوزی، ترید، و مدیریت سرور. انتخاب از میان پلن‌های Flex Windows، Solo Windows، و Pro Windows.",
+    keywords: "سرور مجازی ویندوز, Windows VPS, خرید VPS ویندوز, ریموت دسکتاپ, RDP, Flex Windows, Flex Windows, Solo Windows, Pro Windows, سرور ترید ویندوز, VPSBazaar",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/vps/windows",
+        title: "خرید سرور مجازی ویندوز | Flex Windows، Flex Solo و Flex Pro | VPSBazaar",
+        description: "VPS ویندوز با ریموت دسکتاپ سریع، مناسب اجرای نرم‌افزارهای تحت ویندوز و ترید. ویندوز سرور با منابع اختصاصی و پایداری بالا.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/windows/og-windows-vps.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - سرور مجازی ویندوز",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "خرید سرور مجازی ویندوز | Flex Windows، Solo Windows، و Pro Windows | VPSBazaar",
+        description: "VPS ویندوز با دسترسی RDP برای انجام کارهای اداری، اجرای نرم‌افزارها، یا فعالیت در بازارهای مالی. سازگار با Windows Server 2019 و 2022.",
+        images: ["https://vpsbazaar.cloud/img/og-windows-vps.webp"],
+    },
+    alternates: {
+        canonical: "/vps/windows",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
+
 
 const Windows = () => {
     return (

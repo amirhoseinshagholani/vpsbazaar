@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import Head from "next/head";
 
 export const metadata: Metadata = {
     title: "درباره ما | VPSBazaar - ارائه‌دهنده سرور مجازی با کیفیت",
@@ -34,6 +33,9 @@ export const metadata: Metadata = {
         description:
             "آشنایی با اهداف و خدمات VPSBazaar در زمینه ارائه سرورهای مجازی سریع، پایدار و مقرون‌به‌صرفه با پشتیبانی حرفه‌ای.",
         images: ["https://vpsbazaar.cloud/img/og-image.webp"],
+    },
+    alternates: {
+        canonical: "/about_us",
     },
     icons: {
         icon: [

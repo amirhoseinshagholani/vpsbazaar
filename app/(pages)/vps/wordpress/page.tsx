@@ -1,12 +1,45 @@
-// import formatNumber from "@/functions/formatNumber";
-// import CpuSvg from "@/public/svg/cpuSvg";
-// import RamSvg from "@/public/svg/ramSvg";
-// import SsdSvg from "@/public/svg/ssdSvg";
-// import TrafficSvg from "@/public/svg/trafficSvg";
 import Link from "next/link";
 import Image from "next/image";
 import Services from "../components/services";
 import SelectService from "../components/selectService";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "خرید سرور مجازی وردپرس | Flex WordPress، Solo WordPress و Pro WordPress | VPSBazaar",
+    description: "خرید سرور مجازی مخصوص وردپرس با سرعت بالا، منابع اختصاصی و قابلیت نصب آسان. مناسب برای سایت‌های وردپرسی پرترافیک، فروشگاهی و شرکتی. پلن‌های متنوع Flex WordPress، Solo WordPress و Pro WordPress .",
+    keywords: "سرور مجازی وردپرس, WordPress VPS, خرید VPS وردپرس, هاست وردپرس حرفه‌ای, Flex WordPress, Solo WordPress, Pro WordPress, نصب وردپرس روی VPS, سایت فروشگاهی وردپرس, VPSBazaar",
+    metadataBase: new URL("https://vpsbazaar.cloud"),
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://vpsbazaar.cloud/vps/wordpress",
+        title: "خرید سرور مجازی وردپرس | Flex WordPress، Solo WordPress و Pro WordPress | VPSBazaar",
+        description: "VPS مخصوص وردپرس برای میزبانی سریع و امن سایت‌های وردپرسی. سازگار با LiteSpeed، NGINX، Apache و نصب آسان با یک کلیک.",
+        siteName: "VPSBazaar",
+        images: [
+            {
+                url: "https://vpsbazaar.cloud/img/wordpress/og-wordpress-vps.webp",
+                width: 1200,
+                height: 630,
+                alt: "VPSBazaar - سرور مجازی وردپرس",
+            },
+        ],
+        locale: "fa_IR",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "خرید سرور مجازی وردپرس | Flex WordPress، Solo WordPress و Pro WordPress | VPSBazaar",
+        description: "راه‌اندازی سریع و امن سایت وردپرسی روی سرور مجازی اختصاصی. مناسب برای فروشگاه‌، وبلاگ‌ و کسب‌وکارهای آنلاین.",
+        images: ["https://vpsbazaar.cloud/img/og-wordpress-vps.webp"],
+    },
+    alternates: {
+        canonical: "/vps/wordpress",
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+    },
+};
 
 const Wordpress = () => {
     return (
