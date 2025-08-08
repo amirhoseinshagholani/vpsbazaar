@@ -1,5 +1,4 @@
 import Link from "next/link";
-// import Bloglists from "./bloglists";
 import { Metadata } from "next";
 import Script from "next/script";
 import Image from "next/image";
