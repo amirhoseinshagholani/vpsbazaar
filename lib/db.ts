@@ -10,10 +10,10 @@ import mysql from 'mysql2/promise'
 // })
 
 export const db = mysql.createPool({
-  host: 'localhost',
+  host: '127.0.0.1',
   user: 'httpsvpsbazaar_db',
   password: '(u+VASbc4YRjg]pp',
-  database: 'httpsvpsbazaar_website',
+  database: 'httpsvpsbazaar_db',
   waitForConnections: true,
   connectionLimit: 10,
 })
