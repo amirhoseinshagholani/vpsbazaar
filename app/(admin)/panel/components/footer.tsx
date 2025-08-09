@@ -4,7 +4,7 @@ const Footer = () =>{
     return(
         <>
             <footer>
-                <div className="flex h-10 w-full bg-[#c92e93]">
+                <div className="flex h-10 w-full bg-blue-800">
 
                 </div>
             </footer>

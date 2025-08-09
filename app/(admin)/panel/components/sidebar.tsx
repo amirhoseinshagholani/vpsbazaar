@@ -20,9 +20,10 @@ const Sidebar = () => {
                     <hr className='mt-5 text-gray-600' />
                 </div>
                 <ul className='vazirfont-medium text-md text-gray-900'>
-                    <Link href="/panel"><li className={`${currentRoute == '/panel' ? 'bg-gradient-to-l from-transparent to-white' : '' } hover:bg-gradient-to-l from-transparent to-white p-3`}>داشبورد</li></Link>
-                    <Link href="/panel/spendings"><li className={`${currentRoute == '/panel/spendings' ? 'bg-gradient-to-l from-transparent to-white' : '' } hover:bg-gradient-to-l from-transparent to-white p-3`}>هزینه ها</li></Link>
-                    <Link href="/panel/messages"><li className={`${currentRoute == '/panel/messages' ? 'bg-gradient-to-l from-transparent to-white' : '' } hover:bg-gradient-to-l from-transparent to-white p-3`}>پیام ها</li></Link>
+                    <Link href="/panel"><li className={`${currentRoute == '/panel' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>داشبورد</li></Link>
+                    <Link href="/panel/spendings"><li className={`${currentRoute == '/panel/spendings' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>ثبت هزینه</li></Link>
+                    <Link href="/panel/spendings"><li className={`${currentRoute == '/panel/spendings' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>بدهکاری</li></Link>
+                    <Link href="/panel/messages"><li className={`${currentRoute == '/panel/messages' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>پیام ها</li></Link>
                 </ul>
             </div>
         </>
