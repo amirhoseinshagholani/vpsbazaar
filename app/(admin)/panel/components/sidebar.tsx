@@ -19,10 +19,10 @@ const Sidebar = () => {
                     </div>
                     <hr className='mt-5 text-gray-600' />
                 </div>
-                <ul className='vazirfont-medium text-md text-gray-900'>
+                <ul className='vazirfont-medium text-md text-gray-100'>
                     <Link href="/panel"><li className={`${currentRoute == '/panel' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>داشبورد</li></Link>
                     <Link href="/panel/spendings"><li className={`${currentRoute == '/panel/spendings' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>ثبت هزینه</li></Link>
-                    <Link href="/panel/spendings"><li className={`${currentRoute == '/panel/spendings' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>بدهکاری</li></Link>
+                    <Link href="/panel/depts"><li className={`${currentRoute == '/panel/depts' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>بدهکاری</li></Link>
                     <Link href="/panel/messages"><li className={`${currentRoute == '/panel/messages' ? 'bg-gradient-to-l from-transparent to-white' : ''} hover:bg-gradient-to-l from-transparent to-white p-3`}>پیام ها</li></Link>
                 </ul>
             </div>

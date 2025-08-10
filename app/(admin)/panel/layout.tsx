@@ -17,7 +17,7 @@ export default function PanelLayout({ children }: { children: React.ReactNode; }
         <body className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-grow grid grid-cols-12">
-            <div className="col-span-2 bg-gradient-to-t from-blue-200 to-blue-700">
+            <div className="col-span-2 bg-gradient-to-t from-slate-200 to-slate-700">
               <Sidebar />
             </div>
             <div className="col-span-10 ">

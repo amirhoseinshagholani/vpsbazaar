@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const [rows] = await db.query('SELECT count(*) as count FROM tblusers');
+    const [rows] = await db.query('select count(*) as count from tblorders where status="Pending";');
     return NextResponse.json(rows);
   } catch (error) {
     console.error('Error fetching blog data:', error);
