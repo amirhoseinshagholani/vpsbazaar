@@ -40,7 +40,7 @@ const Panel = () => {
 
   const getOrders = async () => {
     const res_orders = await axios.get(`https://vpsbazaar.cloud/api/orders`);
-    console.log(res_orders.data);
+    // console.log(res_orders.data);
 
     setData(res_orders.data);
   }

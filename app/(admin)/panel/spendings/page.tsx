@@ -13,6 +13,7 @@ import unformatNumber from "@/functions/unformatNumber";
 import { MaterialReactTable, MRT_ColumnDef, useMaterialReactTable } from "material-react-table";
 import ToEnglishDigits from "@/functions/toEnglishDigits";
 import toJalaliDate from "@/functions/jalaliDate";
+import Cookies from 'js-cookie';
 
 dayjs.extend(jalaliday);
 
@@ -25,23 +26,61 @@ type Spending = {
   admin_name: string;
 }
 
+type Admin = {
+  id: number;
+}
+
 const Spendings = () => {
   const [title, setTitle] = useState("");
   const [amount, setAmount] = useState("0");
   const [date, setDate] = useState<any>();
   const [errors, setErrors] = useState({ mobile: "", amount: "" });
   const [data, setData] = useState<Spending[]>([]);
+  const [otherAdmins, setOtherAdmins] = useState<Admin[]>([]);
+  const [spending_id, setSpending_id] = useState<Number | null>(null);
+  const admin_id = Cookies.get("admin_id");
+
+  if (!admin_id) {
+    Swal.fire("خطا", "مشکلی پیش آمده است، لطفا از پنل خارج شده و مجددا وارد شوید", "error");
+    return false;
+  }
 
   const getSpending = async () => {
     const res_spending = await axios.get(`https://vpsbazaar.cloud/api/spending`);
-    console.log(res_spending.data);
-
     setData(res_spending.data);
   }
 
+  const getOtherAdmins = async () => {
+    const res_otherAdmins = await axios.get(`https://vpsbazaar.cloud/api/otherAdmins/${admin_id}`);
+    console.log(res_otherAdmins.data[1].id);
+
+    setOtherAdmins(res_otherAdmins.data);
+  }
+
+  const insertDebts = async () => {
+    const debt = unformatNumber(amount) / 3;
+    otherAdmins && console.log(otherAdmins);
+    return;
+    try {
+      for (let i = 0; i <= otherAdmins.length; i++) {
+        await axios.post("https://vpsbazaar.cloud/api/insertDebts", {
+          spending_id: spending_id,
+          admin_id: otherAdmins[0],
+          amount: 30
+        });
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+
   useEffect(() => {
     getSpending();
-  }, [])
+    getOtherAdmins();
+    insertDebts();
+  }, []);
+
 
   const handleAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const raw = e.target.value;
@@ -62,13 +101,15 @@ const Spendings = () => {
 
     try {
       const res = await axios.post("https://vpsbazaar.cloud/api/insertSpend", {
-        admin_id: 1,
+        admin_id: admin_id,
         title: title,
         amount: unformatNumber(amount),
         date: gregorianDate
       });
 
-      console.log("Inserted:", res.data);
+      // console.log("Inserted:", res.data.insertId);
+      setSpending_id(res.data.insertId);
+      insertDebts();
       Swal.fire("موفق", "هزینه مورد نظر ثبت گردید", "success");
       setTitle("");
       setAmount("");
