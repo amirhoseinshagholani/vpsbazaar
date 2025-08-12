@@ -23,13 +23,13 @@ const Header = () => {
                             </li>
                             <li className="ml-auto">
                                 <div className="flex gap-1 w-fit p-2 text-nowrap justify-center h-full vazirfont-medium text-xs bg-white rounded-2xl text-black">
-                                    <div className="text-[10px]">
+                                    <div className="text-[12px]">
                                         <div className="pt-1">021-91095238</div>
-                                        <div className="pt-1">09394223183</div>
+                                        {/* <div className="pt-1">09394223183</div> */}
                                     </div>
                                     <span className="flex items-center">
                                         <Link href="/">
-                                            <Image src={logo} alt="logo" width={35} height={35} />
+                                            <Image src={logo} alt="logo" width={20} height={20} />
                                         </Link>
                                     </span>
                                 </div>
