@@ -193,22 +193,22 @@ const Spendings = () => {
               ثبت هزینه
             </div>
           </div>
-          <div className="p-3 md:p-5 vazirfont-medium text-md">
+          <div className="p-3 md:p-5 vazirfont-medium text-sm">
             <div className="w-full mx-auto bg-amber-400 p-5 md:p-10 rounded-2xl grid grid-cols-12 gap-3 shadow-md">
 
-              <div className="mt-2 md:flex gap-2 col-span-12 md:col-span-3">
+              <div className="mt-2 gap-2 col-span-12 md:col-span-3">
                 <label className="flex text-nowrap mt-1">موضوع : </label>
-                <input onChange={(e) => setTitle(e.target.value)} className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-72 rounded-xl" type="text" value={title} />
+                <input onChange={(e) => setTitle(e.target.value)} className="bg-slate-100 h-5 p-5 pr-3 w-full  rounded-xl" type="text" value={title} />
               </div>
 
-              <div className="mt-2 md:flex gap-2 col-span-12 md:col-span-3">
+              <div className="mt-2 gap-2 col-span-12 md:col-span-3">
                 <label className="flex  text-nowrap mt-1">مبلغ(ریال) : </label>
-                <input onChange={handleAmountChange} className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-72 rounded-xl " type="text" value={amount} />
+                <input onChange={handleAmountChange} className="bg-slate-100 h-5 p-5 pr-3 w-full rounded-xl " type="text" value={amount} />
               </div>
 
-              <div className="mt-2 md:flex gap-2 col-span-12 md:col-span-3">
+              <div className="mt-2 gap-2 col-span-12 md:col-span-3">
                 <label className="flex  text-nowrap mt-1">تاریخ : </label>
-                <div className="bg-slate-100 h-10 p-1 text-center pr-3 w-full md:w-72 rounded-xl">
+                <div className="bg-slate-100 h-10 p-1 text-center pr-3 w-full  rounded-xl">
                   <DatePicker
                     onChange={(d) => setDate(d?.format("YYYY/MM/DD"))}
                     calendar={persian}
@@ -224,8 +224,8 @@ const Spendings = () => {
                 </div>
               </div>
 
-              <div className="w-full flex col-span-3">
-                <button onClick={submit} className="bg-gradient-to-r from-green-300 to-green-500 hover:from-green-600 hover:to-green-800 p-2 pl-7 pr-7 rounded-xl mx-auto">ثبت</button>
+              <div className="w-full flex col-span-3 items-center">
+                <button onClick={submit} className="mt-7 bg-gradient-to-r from-green-300 to-green-500 hover:from-green-600 hover:to-green-800 h-10 pl-7 pr-7 rounded-xl mx-auto">ثبت</button>
               </div>
             </div>
             <div className="mt-5">

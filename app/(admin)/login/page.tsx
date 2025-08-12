@@ -5,8 +5,6 @@ import { useRouter } from 'next/navigation';
 import { useState } from "react";
 import Swal from "sweetalert2";
 import Cookies from 'js-cookie';
-import { Token } from "@mui/icons-material";
-import { Metadata } from "next";
 import "./globals.css";
 import "@/public/css/font.css";
 import "@/public/css/style.css";
@@ -15,8 +13,6 @@ import axios from "axios";
 
 const Login = () => {
     const router = useRouter();
-    const [isUser, setIsUser] = useState(false);
-    const [isRemember, setIsRemember] = useState(false);
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
@@ -53,8 +49,8 @@ const Login = () => {
     return (
         <>
             <div className="bg-white h-screen text-black flex items-center justify-center p-5 md:p-0">
-                <div className="bg-slate-300 shadow-lg w-[400px] h-1/2 rounded-2xl">
-                    <div className="mx-auto bg-slate-300  w-100 h-1/2 rounded-2xl">
+                <div className="bg-slate-300 shadow-lg w-[400px] h-fit rounded-2xl">
+                    <div className="mx-auto bg-slate-300  w-100 h-fit p-5 rounded-2xl">
                         <div className="flex mt-5" id="logo">
                             <Image className="mx-auto rounded-lg" src={logo} alt="logo" width={100} height={100} />
                         </div>
