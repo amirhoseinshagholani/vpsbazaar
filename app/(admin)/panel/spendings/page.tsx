@@ -194,7 +194,7 @@ const Spendings = () => {
             </div>
           </div>
           <div className="p-3 md:p-5 vazirfont-medium text-sm">
-            <div className="w-full mx-auto bg-amber-400 p-5 md:p-10 rounded-2xl grid grid-cols-12 gap-3 shadow-md">
+            <div className="w-full mx-auto  p-5 md:p-0 rounded-2xl grid grid-cols-12 gap-3">
 
               <div className="mt-2 gap-2 col-span-12 md:col-span-3">
                 <label className="flex text-nowrap mt-1">موضوع : </label>

@@ -122,7 +122,7 @@ const Panel = () => {
             </div>
           </div>
           <div className="p-2 md:p-10 vazirfont-medium text-sm">
-            <div className="grid grid-cols-12 gap-3 w-full mx-auto bg-blue-400 p-3 md:p-10 rounded-2xl grid grid-cols-12 gap-3 shadow-md">
+            <div className="grid grid-cols-12 gap-3 w-full mx-auto  p-3 md:p-0 rounded-2xl grid grid-cols-12 gap-3">
               
               <div className="col-span-6">
 

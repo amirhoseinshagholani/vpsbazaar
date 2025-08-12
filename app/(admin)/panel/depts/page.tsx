@@ -102,6 +102,7 @@ const Debts = () => {
             {
                 accessorKey: 'id',
                 header: 'شناسه',
+                size: 80,
                 Cell: ({ cell }) => {
                     let text = cell.getValue<string>();
                     return (
@@ -218,7 +219,7 @@ const Debts = () => {
                         </div>
                     </div>
                     <div className="p-2 md:p-5 vazirfont-medium text-md">
-                        <div className="w-full mx-auto bg-green-500 p-5 md:p-10 rounded-2xl grid grid-cols-12 gap-3 shadow-md">
+                        <div className="w-full mx-auto  p-5 md:p-0 rounded-2xl grid grid-cols-12 gap-3">
 
                             <div className="mt-2 gap-2 col-span-12 md:col-span-6">
                                 <label className="flex text-nowrap mt-1">پرداخت شده: </label>
@@ -227,7 +228,7 @@ const Debts = () => {
 
                             <div className="mt-2 gap-2 col-span-12 md:col-span-6">
                                 <label className="flex  text-nowrap mt-1">پرداخت نشده: </label>
-                                <input className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-72 rounded-xl outline-0" readOnly type="text" value={formatNumber(unPaidAmout)} />
+                                <input className="bg-slate-200 h-5 p-5 pr-3 w-full md:w-72 rounded-xl outline-0" readOnly type="text" value={formatNumber(unPaidAmout)} />
                             </div>
 
                         </div>
