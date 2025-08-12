@@ -22,7 +22,7 @@ const Messages = () => {
 
   const getMessages = async () => {
     const res_messages = await axios.get(`https://vpsbazaar.cloud/api/messages`);
-    console.log(res_messages.data);
+    // console.log(res_messages.data);
 
     setData(res_messages.data);
   }
@@ -135,7 +135,7 @@ const Messages = () => {
               پیام ها
             </div>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 p-2">
             <MaterialReactTable table={table} />
           </div>
         </div>

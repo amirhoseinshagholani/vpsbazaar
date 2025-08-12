@@ -1,5 +1,6 @@
 'use client';
 
+import axios from "axios";
 import { useState } from "react";
 import swalMessage from "sweetalert2";
 
@@ -9,7 +10,7 @@ const Contact_usForm = () => {
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
 
-    const submit_form = () => {
+    const submit_form = async () => {
         if (!name) {
             swalMessage.fire("خطا", "لطفا نام را وارد کنید", "warning");
             return false;
@@ -27,12 +28,24 @@ const Contact_usForm = () => {
             return false;
         }
 
-        setName("");
-        setLastName("");
-        setSubject("");
-        setMessage("");
-        swalMessage.fire("موفق", "پیام شما با موفقیت ارسال شد", "success");
-    }
+        try {
+            const res = await axios.post("https://vpsbazaar.cloud/api/insertMessage", {
+                name: name,
+                lastName: lastName,
+                subject: subject,
+                message: message
+            });
+
+            swalMessage.fire("موفق", "پیام شما با موفقیت ارسال شد", "success");
+            setName("");
+            setLastName("");
+            setSubject("");
+            setMessage("");
+        } catch (err) {
+            console.error("Error:", err);
+        }
+    };
+
     return (
         <>
             <form>

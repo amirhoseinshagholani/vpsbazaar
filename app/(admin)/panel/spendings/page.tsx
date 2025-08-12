@@ -26,9 +26,9 @@ type Spending = {
   admin_name: string;
 }
 
-type Admin = {
-  id: number;
-}
+// type Admin = {
+//   id: number;
+// }
 
 const Spendings = () => {
   const [title, setTitle] = useState("");
@@ -36,8 +36,8 @@ const Spendings = () => {
   const [date, setDate] = useState<any>();
   const [errors, setErrors] = useState({ mobile: "", amount: "" });
   const [data, setData] = useState<Spending[]>([]);
-  const [otherAdmins, setOtherAdmins] = useState<Admin[]>([]);
-  const [spending_id, setSpending_id] = useState<Number | null>(null);
+  const [otherAdmins, setOtherAdmins] = useState([]);
+  // const [spending_id, setSpending_id] = useState<Number | null>(null);
   const admin_id = Cookies.get("admin_id");
 
   if (!admin_id) {
@@ -52,21 +52,20 @@ const Spendings = () => {
 
   const getOtherAdmins = async () => {
     const res_otherAdmins = await axios.get(`https://vpsbazaar.cloud/api/otherAdmins/${admin_id}`);
-    console.log(res_otherAdmins.data[1].id);
+    // console.log(res_otherAdmins.data);
 
     setOtherAdmins(res_otherAdmins.data);
   }
 
-  const insertDebts = async () => {
+  const insertDebts = async (spending_id:number) => {
     const debt = unformatNumber(amount) / 3;
-    otherAdmins && console.log(otherAdmins);
-    return;
+    console.log(otherAdmins);
     try {
-      for (let i = 0; i <= otherAdmins.length; i++) {
-        await axios.post("https://vpsbazaar.cloud/api/insertDebts", {
+      for (let i = 0; i <= otherAdmins.length-1; i++) {
+        await axios.post("https://vpsbazaar.cloud/api/insertDebts", { 
           spending_id: spending_id,
-          admin_id: otherAdmins[0],
-          amount: 30
+          admin_id: otherAdmins[i]['id'],
+          amount: debt
         });
       }
     } catch (err) {
@@ -78,8 +77,11 @@ const Spendings = () => {
   useEffect(() => {
     getSpending();
     getOtherAdmins();
-    insertDebts();
   }, []);
+
+  // useEffect(()=>{
+  //   insertDebts();
+  // },[otherAdmins])
 
 
   const handleAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -108,8 +110,8 @@ const Spendings = () => {
       });
 
       // console.log("Inserted:", res.data.insertId);
-      setSpending_id(res.data.insertId);
-      insertDebts();
+      // setSpending_id(res.data.insertId);
+      insertDebts(res.data.insertId);
       Swal.fire("موفق", "هزینه مورد نظر ثبت گردید", "success");
       setTitle("");
       setAmount("");
@@ -191,22 +193,22 @@ const Spendings = () => {
               ثبت هزینه
             </div>
           </div>
-          <div className="p-5 vazirfont-medium text-md">
-            <div className="w-full mx-auto bg-amber-400 p-10 rounded-2xl grid grid-cols-12 gap-3 shadow-md">
+          <div className="p-3 md:p-5 vazirfont-medium text-md">
+            <div className="w-full mx-auto bg-amber-400 p-5 md:p-10 rounded-2xl grid grid-cols-12 gap-3 shadow-md">
 
-              <div className="mt-2 flex gap-2 col-span-3">
-                <label className="text-nowrap mt-1">موضوع : </label>
-                <input onChange={(e) => setTitle(e.target.value)} className="bg-slate-100 h-5 p-5 pr-3 w-72 rounded-xl" type="text" value={title} />
+              <div className="mt-2 md:flex gap-2 col-span-12 md:col-span-3">
+                <label className="flex text-nowrap mt-1">موضوع : </label>
+                <input onChange={(e) => setTitle(e.target.value)} className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-72 rounded-xl" type="text" value={title} />
               </div>
 
-              <div className="mt-2 flex gap-2 col-span-3">
+              <div className="mt-2 md:flex gap-2 col-span-12 md:col-span-3">
                 <label className="flex  text-nowrap mt-1">مبلغ(ریال) : </label>
-                <input onChange={handleAmountChange} className="bg-slate-100 h-5 p-5 pr-3 w-72 rounded-xl " type="text" value={amount} />
+                <input onChange={handleAmountChange} className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-72 rounded-xl " type="text" value={amount} />
               </div>
 
-              <div className="mt-2 flex gap-2 col-span-3">
+              <div className="mt-2 md:flex gap-2 col-span-12 md:col-span-3">
                 <label className="flex  text-nowrap mt-1">تاریخ : </label>
-                <div className="bg-slate-100 h-10 p-1 text-center pr-3 w-72 rounded-xl">
+                <div className="bg-slate-100 h-10 p-1 text-center pr-3 w-full md:w-72 rounded-xl">
                   <DatePicker
                     onChange={(d) => setDate(d?.format("YYYY/MM/DD"))}
                     calendar={persian}

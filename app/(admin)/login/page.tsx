@@ -52,9 +52,9 @@ const Login = () => {
 
     return (
         <>
-            <div className="bg-white h-screen text-black">
-                <div className="flex h-screen items-center p-5 md:p-0">
-                    <div className="mx-auto bg-slate-300 shadow-lg w-100 h-1/2 rounded-2xl">
+            <div className="bg-white h-screen text-black flex items-center justify-center p-5 md:p-0">
+                <div className="bg-slate-300 shadow-lg w-[400px] h-1/2 rounded-2xl">
+                    <div className="mx-auto bg-slate-300  w-100 h-1/2 rounded-2xl">
                         <div className="flex mt-5" id="logo">
                             <Image className="mx-auto rounded-lg" src={logo} alt="logo" width={100} height={100} />
                         </div>

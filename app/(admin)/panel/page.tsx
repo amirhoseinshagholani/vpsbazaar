@@ -121,24 +121,24 @@ const Panel = () => {
               داشبورد - لیست سفارشات
             </div>
           </div>
-          <div className="p-10 vazirfont-medium text-sm">
-            <div className="w-full mx-auto bg-blue-400 p-10 rounded-2xl grid grid-cols-12 gap-3 shadow-md">
-              <div className="flex justify-between gap-2 col-span-3">
+          <div className="p-2 md:p-10 vazirfont-medium text-sm">
+            <div className="w-full mx-auto bg-blue-400 p-3 md:p-10 rounded-2xl grid grid-cols-12 gap-3 shadow-md">
+              <div className="md:flex justify-between gap-2 col-span-12 md:col-span-3">
                 <label className="flex items-center text-nowrap">تعداد کاربران: </label>
                 <input className="bg-slate-100 h-5 p-5 pr-3 w-70 rounded-xl items-center" type="text" value={`${countUsers} نفر`} readOnly />
               </div>
 
-              <div className="flex justify-between gap-2 col-span-3">
+              <div className="md:flex justify-between gap-2 col-span-12 md:col-span-3">
                 <label className="flex items-center text-nowrap">تعداد کل سفارشات: </label>
                 <input className="bg-slate-100 h-5 p-5 pr-3 w-70 rounded-xl items-center" type="text" value={`${countOrders}`} readOnly />
               </div>
 
-              <div className="flex justify-between gap-2 col-span-3">
+              <div className="md:flex justify-between gap-2 col-span-12 md:col-span-3">
                 <label className="flex items-center text-nowrap">تعداد سفارشات فعال: </label>
                 <input className="bg-slate-100 h-5 p-5 pr-3 w-70 rounded-xl items-center" type="text" value={`${countActiveOrders}`} readOnly />
               </div>
 
-              <div className="flex justify-between gap-2 col-span-3">
+              <div className="md:flex justify-between gap-2 col-span-12 md:col-span-3">
                 <label className="flex items-center text-nowrap">تعداد سفارشات درانتظار: </label>
                 <input className="bg-slate-100 h-5 p-5 pr-3 w-70 rounded-xl items-center" type="text" value={`${countPendingOrders}`} readOnly />
               </div>
