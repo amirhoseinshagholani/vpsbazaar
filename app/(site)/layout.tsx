@@ -60,6 +60,28 @@ export default function RootLayout({
 }>) {
   return (
     <html dir="rtl" lang="fa">
+      <Script id="organization-ld-json" type="application/ld+json" strategy="afterInteractive">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "VPSBazaar",
+          "alternateName": "وی پی اس بازار",
+          "url": "https://vpsbazaar.cloud",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://vpsbazaar.cloud/img/logo.webp"
+          },
+          "description": "VPSBazaar ارائه‌دهنده سرور مجازی سریع، پایدار و مقرون‌به‌صرفه با تحویل آنی، آی‌پی ثابت و پشتیبانی ۲۴ ساعته.",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "telephone": "021-91095238",
+            "email": "info@vpsbazaar.cloud",
+            "areaServed": "IR",
+            "availableLanguage": ["fa"]
+          }
+        })}
+      </Script>
       <Script id="gtm-script" strategy="afterInteractive">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -69,7 +91,6 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','GTM-MKZNDGXW');
       `}
       </Script>
-
       <body className="bg-[#5B2C6F]">
         <noscript>
           <iframe
@@ -79,7 +100,7 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        
+
         <div className="">
           <Header />
           {children}

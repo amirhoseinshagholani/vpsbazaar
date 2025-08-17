@@ -73,26 +73,18 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Script id="organization-ld-json" type="application/ld+json" strategy="afterInteractive">
+      <Script id="breadcrumb-ld-json" type="application/ld+json" strategy="afterInteractive">
         {JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "VPSBazaar",
-          "alternateName": "وی پی اس بازار",
-          "url": "https://vpsbazaar.cloud",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://vpsbazaar.cloud/img/logo.webp"
-          },
-          "description": "VPSBazaar ارائه‌دهنده سرور مجازی سریع، پایدار و مقرون‌به‌صرفه با تحویل آنی، آی‌پی ثابت و پشتیبانی ۲۴ ساعته.",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "telephone": "021-91095238",
-            "email": "info@vpsbazaar.cloud",
-            "areaServed": "IR",
-            "availableLanguage": ["fa"]
-          }
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "خانه",
+              "item": "https://vpsbazaar.cloud"
+            }
+          ]
         })}
       </Script>
 

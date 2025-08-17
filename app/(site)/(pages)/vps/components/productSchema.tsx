@@ -28,6 +28,34 @@ const ProductSchema = ({ category }: { category: string }) => {
                                     "seller": {
                                         "@type": "Organization",
                                         "name": "VPSBazaar"
+                                    },
+                                    "shippingDetails": {
+                                        "@type": "OfferShippingDetails",
+                                        "shippingRate": {
+                                            "@type": "MonetaryAmount",
+                                            "value": "0",
+                                            "currency": "IRR"
+                                        },
+                                        "deliveryTime": {
+                                            "@type": "ShippingDeliveryTime",
+                                            "handlingTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            },
+                                            "transitTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            }
+                                        }
+                                    },
+                                    "hasMerchantReturnPolicy": {
+                                        "@type": "MerchantReturnPolicy",
+                                        "applicableCountry": "IR",
+                                        "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
                                     }
                                 }
                             }, {
@@ -51,6 +79,34 @@ const ProductSchema = ({ category }: { category: string }) => {
                                     "seller": {
                                         "@type": "Organization",
                                         "name": "VPSBazaar"
+                                    },
+                                    "shippingDetails": {
+                                        "@type": "OfferShippingDetails",
+                                        "shippingRate": {
+                                            "@type": "MonetaryAmount",
+                                            "value": "0",
+                                            "currency": "IRR"
+                                        },
+                                        "deliveryTime": {
+                                            "@type": "ShippingDeliveryTime",
+                                            "handlingTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            },
+                                            "transitTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            }
+                                        }
+                                    },
+                                    "hasMerchantReturnPolicy": {
+                                        "@type": "MerchantReturnPolicy",
+                                        "applicableCountry": "IR",
+                                        "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
                                     }
                                 }
                             }, {
@@ -74,6 +130,34 @@ const ProductSchema = ({ category }: { category: string }) => {
                                     "seller": {
                                         "@type": "Organization",
                                         "name": "VPSBazaar"
+                                    },
+                                    "shippingDetails": {
+                                        "@type": "OfferShippingDetails",
+                                        "shippingRate": {
+                                            "@type": "MonetaryAmount",
+                                            "value": "0",
+                                            "currency": "IRR"
+                                        },
+                                        "deliveryTime": {
+                                            "@type": "ShippingDeliveryTime",
+                                            "handlingTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            },
+                                            "transitTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            }
+                                        }
+                                    },
+                                    "hasMerchantReturnPolicy": {
+                                        "@type": "MerchantReturnPolicy",
+                                        "applicableCountry": "IR",
+                                        "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
                                     }
                                 }
                             }, {
@@ -97,6 +181,34 @@ const ProductSchema = ({ category }: { category: string }) => {
                                     "seller": {
                                         "@type": "Organization",
                                         "name": "VPSBazaar"
+                                    },
+                                    "shippingDetails": {
+                                        "@type": "OfferShippingDetails",
+                                        "shippingRate": {
+                                            "@type": "MonetaryAmount",
+                                            "value": "0",
+                                            "currency": "IRR"
+                                        },
+                                        "deliveryTime": {
+                                            "@type": "ShippingDeliveryTime",
+                                            "handlingTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            },
+                                            "transitTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            }
+                                        }
+                                    },
+                                    "hasMerchantReturnPolicy": {
+                                        "@type": "MerchantReturnPolicy",
+                                        "applicableCountry": "IR",
+                                        "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
                                     }
                                 }
                             }, {
@@ -120,6 +232,34 @@ const ProductSchema = ({ category }: { category: string }) => {
                                     "seller": {
                                         "@type": "Organization",
                                         "name": "VPSBazaar"
+                                    },
+                                    "shippingDetails": {
+                                        "@type": "OfferShippingDetails",
+                                        "shippingRate": {
+                                            "@type": "MonetaryAmount",
+                                            "value": "0",
+                                            "currency": "IRR"
+                                        },
+                                        "deliveryTime": {
+                                            "@type": "ShippingDeliveryTime",
+                                            "handlingTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            },
+                                            "transitTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            }
+                                        }
+                                    },
+                                    "hasMerchantReturnPolicy": {
+                                        "@type": "MerchantReturnPolicy",
+                                        "applicableCountry": "IR",
+                                        "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
                                     }
                                 }
                             }, {
@@ -143,6 +283,34 @@ const ProductSchema = ({ category }: { category: string }) => {
                                     "seller": {
                                         "@type": "Organization",
                                         "name": "VPSBazaar"
+                                    },
+                                    "shippingDetails": {
+                                        "@type": "OfferShippingDetails",
+                                        "shippingRate": {
+                                            "@type": "MonetaryAmount",
+                                            "value": "0",
+                                            "currency": "IRR"
+                                        },
+                                        "deliveryTime": {
+                                            "@type": "ShippingDeliveryTime",
+                                            "handlingTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            },
+                                            "transitTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            }
+                                        }
+                                    },
+                                    "hasMerchantReturnPolicy": {
+                                        "@type": "MerchantReturnPolicy",
+                                        "applicableCountry": "IR",
+                                        "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
                                     }
                                 }
                             }])}
@@ -154,76 +322,161 @@ const ProductSchema = ({ category }: { category: string }) => {
                 category == 'forex' && (
                     <>
                         <Script id="product-ld-json" type="application/ld+json" strategy="afterInteractive">
-                            {JSON.stringify([{
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": `Flex ${category ? category : ""}`,
-                                "image": "https://vpsbazaar.cloud/img/og-image.webp",
-                                "description": "سرور مجازی Flex با 1 هسته CPU، 1 گیگابایت RAM، 25 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
-                                "sku": `flex ${category ? category : ""}`,
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "VPSBazaar"
-                                },
-                                "offers": {
-                                    "@type": "Offer",
-                                    "url": "https://vpsbazaar.cloud/vps",
-                                    "priceCurrency": "IRR",
-                                    "price": "1990000",
-                                    "itemCondition": "https://schema.org/NewCondition",
-                                    "availability": "https://schema.org/InStock",
-                                    "seller": {
-                                        "@type": "Organization",
+                            {JSON.stringify([
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": `Flex ${category ? category : ""}`,
+                                    "image": "https://vpsbazaar.cloud/img/og-image.webp",
+                                    "description": "سرور مجازی فارکس Flex با 1 هسته CPU، 1 گیگابایت RAM، 25 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
+                                    "sku": `flex ${category ? category : ""}`,
+                                    "brand": {
+                                        "@type": "Brand",
                                         "name": "VPSBazaar"
+                                    },
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "url": "https://vpsbazaar.cloud/vps",
+                                        "priceCurrency": "IRR",
+                                        "price": "1990000",
+                                        "itemCondition": "https://schema.org/NewCondition",
+                                        "availability": "https://schema.org/InStock",
+                                        "seller": {
+                                            "@type": "Organization",
+                                            "name": "VPSBazaar"
+                                        },
+                                        "shippingDetails": {
+                                            "@type": "OfferShippingDetails",
+                                            "shippingRate": {
+                                                "@type": "MonetaryAmount",
+                                                "value": "0",
+                                                "currency": "IRR"
+                                            },
+                                            "deliveryTime": {
+                                                "@type": "ShippingDeliveryTime",
+                                                "handlingTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                },
+                                                "transitTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                }
+                                            }
+                                        },
+                                        "hasMerchantReturnPolicy": {
+                                            "@type": "MerchantReturnPolicy",
+                                            "applicableCountry": "IR",
+                                            "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+                                        }
                                     }
-                                }
-                            }, {
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": `Solo ${category ? category : ""}`,
-                                "image": "https://vpsbazaar.cloud/img/og-image.webp",
-                                "description": "سرور مجازی Flex با 1 هسته CPU، 2 گیگابایت RAM، 30 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
-                                "sku": `solo ${category ? category : ""}`,
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "VPSBazaar"
-                                },
-                                "offers": {
-                                    "@type": "Offer",
-                                    "url": "https://vpsbazaar.cloud/vps",
-                                    "priceCurrency": "IRR",
-                                    "price": "2590000",
-                                    "itemCondition": "https://schema.org/NewCondition",
-                                    "availability": "https://schema.org/InStock",
-                                    "seller": {
-                                        "@type": "Organization",
+                                }, {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": `Solo ${category ? category : ""}`,
+                                    "image": "https://vpsbazaar.cloud/img/og-image.webp",
+                                    "description": "سرور مجازی فارکس Flex با 1 هسته CPU، 2 گیگابایت RAM، 30 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
+                                    "sku": `solo ${category ? category : ""}`,
+                                    "brand": {
+                                        "@type": "Brand",
                                         "name": "VPSBazaar"
+                                    },
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "url": "https://vpsbazaar.cloud/vps",
+                                        "priceCurrency": "IRR",
+                                        "price": "2590000",
+                                        "itemCondition": "https://schema.org/NewCondition",
+                                        "availability": "https://schema.org/InStock",
+                                        "seller": {
+                                            "@type": "Organization",
+                                            "name": "VPSBazaar"
+                                        },
+                                        "shippingDetails": {
+                                            "@type": "OfferShippingDetails",
+                                            "shippingRate": {
+                                                "@type": "MonetaryAmount",
+                                                "value": "0",
+                                                "currency": "IRR"
+                                            },
+                                            "deliveryTime": {
+                                                "@type": "ShippingDeliveryTime",
+                                                "handlingTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                },
+                                                "transitTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                }
+                                            }
+                                        },
+                                        "hasMerchantReturnPolicy": {
+                                            "@type": "MerchantReturnPolicy",
+                                            "applicableCountry": "IR",
+                                            "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+                                        }
                                     }
-                                }
-                            }, {
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": `Pro ${category ? category : ""}`,
-                                "image": "https://vpsbazaar.cloud/img/og-image.webp",
-                                "description": "سرور مجازی Flex با 2 هسته CPU، 4 گیگابایت RAM، 40 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
-                                "sku": "pro",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "VPSBazaar"
-                                },
-                                "offers": {
-                                    "@type": "Offer",
-                                    "url": "https://vpsbazaar.cloud/vps",
-                                    "priceCurrency": "IRR",
-                                    "price": "3990000",
-                                    "itemCondition": "https://schema.org/NewCondition",
-                                    "availability": "https://schema.org/InStock",
-                                    "seller": {
-                                        "@type": "Organization",
+                                }, {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": `Pro ${category ? category : ""}`,
+                                    "image": "https://vpsbazaar.cloud/img/og-image.webp",
+                                    "description": "سرور مجازی فارکس Flex با 2 هسته CPU، 4 گیگابایت RAM، 40 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
+                                    "sku": "pro",
+                                    "brand": {
+                                        "@type": "Brand",
                                         "name": "VPSBazaar"
+                                    },
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "url": "https://vpsbazaar.cloud/vps",
+                                        "priceCurrency": "IRR",
+                                        "price": "3990000",
+                                        "itemCondition": "https://schema.org/NewCondition",
+                                        "availability": "https://schema.org/InStock",
+                                        "seller": {
+                                            "@type": "Organization",
+                                            "name": "VPSBazaar"
+                                        },
+                                        "shippingDetails": {
+                                            "@type": "OfferShippingDetails",
+                                            "shippingRate": {
+                                                "@type": "MonetaryAmount",
+                                                "value": "0",
+                                                "currency": "IRR"
+                                            },
+                                            "deliveryTime": {
+                                                "@type": "ShippingDeliveryTime",
+                                                "handlingTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                },
+                                                "transitTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                }
+                                            }
+                                        },
+                                        "hasMerchantReturnPolicy": {
+                                            "@type": "MerchantReturnPolicy",
+                                            "applicableCountry": "IR",
+                                            "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+                                        }
                                     }
-                                }
-                            }])}
+                                }])}
                         </Script>
                     </>
                 )
@@ -232,76 +485,163 @@ const ProductSchema = ({ category }: { category: string }) => {
                 category == 'linux' && (
                     <>
                         <Script id="product-ld-json" type="application/ld+json" strategy="afterInteractive">
-                            {JSON.stringify([{
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": `Flex ${category ? category : ""}`,
-                                "image": "https://vpsbazaar.cloud/img/og-image.webp",
-                                "description": "سرور مجازی Flex با 1 هسته CPU، 1 گیگابایت RAM، 25 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
-                                "sku": `flex ${category ? category : ""}`,
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "VPSBazaar"
-                                },
-                                "offers": {
-                                    "@type": "Offer",
-                                    "url": "https://vpsbazaar.cloud/vps",
-                                    "priceCurrency": "IRR",
-                                    "price": "1990000",
-                                    "itemCondition": "https://schema.org/NewCondition",
-                                    "availability": "https://schema.org/InStock",
-                                    "seller": {
-                                        "@type": "Organization",
+                            {JSON.stringify([
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": `Flex ${category ? category : ""}`,
+                                    "image": "https://vpsbazaar.cloud/img/og-image.webp",
+                                    "description": "سرور مجازی لینوکس Flex با 1 هسته CPU، 1 گیگابایت RAM، 25 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
+                                    "sku": `flex ${category ? category : ""}`,
+                                    "brand": {
+                                        "@type": "Brand",
                                         "name": "VPSBazaar"
+                                    },
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "url": "https://vpsbazaar.cloud/vps",
+                                        "priceCurrency": "IRR",
+                                        "price": "1990000",
+                                        "itemCondition": "https://schema.org/NewCondition",
+                                        "availability": "https://schema.org/InStock",
+                                        "seller": {
+                                            "@type": "Organization",
+                                            "name": "VPSBazaar"
+                                        },
+                                        "shippingDetails": {
+                                            "@type": "OfferShippingDetails",
+                                            "shippingRate": {
+                                                "@type": "MonetaryAmount",
+                                                "value": "0",
+                                                "currency": "IRR"
+                                            },
+                                            "deliveryTime": {
+                                                "@type": "ShippingDeliveryTime",
+                                                "handlingTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                },
+                                                "transitTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                }
+                                            }
+                                        },
+                                        "hasMerchantReturnPolicy": {
+                                            "@type": "MerchantReturnPolicy",
+                                            "applicableCountry": "IR",
+                                            "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+                                        }
                                     }
-                                }
-                            }, {
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": `Solo ${category ? category : ""}`,
-                                "image": "https://vpsbazaar.cloud/img/og-image.webp",
-                                "description": "سرور مجازی Flex با 1 هسته CPU، 2 گیگابایت RAM، 30 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
-                                "sku": `solo ${category ? category : ""}`,
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "VPSBazaar"
-                                },
-                                "offers": {
-                                    "@type": "Offer",
-                                    "url": "https://vpsbazaar.cloud/vps",
-                                    "priceCurrency": "IRR",
-                                    "price": "2590000",
-                                    "itemCondition": "https://schema.org/NewCondition",
-                                    "availability": "https://schema.org/InStock",
-                                    "seller": {
-                                        "@type": "Organization",
+                                }, {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": `Solo ${category ? category : ""}`,
+                                    "image": "https://vpsbazaar.cloud/img/og-image.webp",
+                                    "description": "سرور مجازی Flex با 1 هسته CPU، 2 گیگابایت RAM، 30 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
+                                    "sku": `solo ${category ? category : ""}`,
+                                    "brand": {
+                                        "@type": "Brand",
                                         "name": "VPSBazaar"
+                                    },
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "url": "https://vpsbazaar.cloud/vps",
+                                        "priceCurrency": "IRR",
+                                        "price": "2590000",
+                                        "itemCondition": "https://schema.org/NewCondition",
+                                        "availability": "https://schema.org/InStock",
+                                        "seller": {
+                                            "@type": "Organization",
+                                            "name": "VPSBazaar"
+                                        },
+                                        "shippingDetails": {
+                                            "@type": "OfferShippingDetails",
+                                            "shippingRate": {
+                                                "@type": "MonetaryAmount",
+                                                "value": "0",
+                                                "currency": "IRR"
+                                            },
+                                            "deliveryTime": {
+                                                "@type": "ShippingDeliveryTime",
+                                                "handlingTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                },
+                                                "transitTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                }
+                                            }
+                                        },
+                                        "hasMerchantReturnPolicy": {
+                                            "@type": "MerchantReturnPolicy",
+                                            "applicableCountry": "IR",
+                                            "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+                                        }
+
                                     }
-                                }
-                            }, {
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": `Pro ${category ? category : ""}`,
-                                "image": "https://vpsbazaar.cloud/img/og-image.webp",
-                                "description": "سرور مجازی Flex با 2 هسته CPU، 4 گیگابایت RAM، 40 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
-                                "sku": "pro",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "VPSBazaar"
-                                },
-                                "offers": {
-                                    "@type": "Offer",
-                                    "url": "https://vpsbazaar.cloud/vps",
-                                    "priceCurrency": "IRR",
-                                    "price": "3990000",
-                                    "itemCondition": "https://schema.org/NewCondition",
-                                    "availability": "https://schema.org/InStock",
-                                    "seller": {
-                                        "@type": "Organization",
+                                }, {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": `Pro ${category ? category : ""}`,
+                                    "image": "https://vpsbazaar.cloud/img/og-image.webp",
+                                    "description": "سرور مجازی Flex با 2 هسته CPU، 4 گیگابایت RAM، 40 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
+                                    "sku": "pro",
+                                    "brand": {
+                                        "@type": "Brand",
                                         "name": "VPSBazaar"
+                                    },
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "url": "https://vpsbazaar.cloud/vps",
+                                        "priceCurrency": "IRR",
+                                        "price": "3990000",
+                                        "itemCondition": "https://schema.org/NewCondition",
+                                        "availability": "https://schema.org/InStock",
+                                        "seller": {
+                                            "@type": "Organization",
+                                            "name": "VPSBazaar"
+                                        },
+                                        "shippingDetails": {
+                                            "@type": "OfferShippingDetails",
+                                            "shippingRate": {
+                                                "@type": "MonetaryAmount",
+                                                "value": "0",
+                                                "currency": "IRR"
+                                            },
+                                            "deliveryTime": {
+                                                "@type": "ShippingDeliveryTime",
+                                                "handlingTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                },
+                                                "transitTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                }
+                                            }
+                                        },
+                                        "hasMerchantReturnPolicy": {
+                                            "@type": "MerchantReturnPolicy",
+                                            "applicableCountry": "IR",
+                                            "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+                                        }
+
                                     }
-                                }
-                            }])}
+                                }])}
                         </Script>
                     </>
                 )
@@ -310,53 +650,110 @@ const ProductSchema = ({ category }: { category: string }) => {
                 category == 'mikrotik' && (
                     <>
                         <Script id="product-ld-json" type="application/ld+json" strategy="afterInteractive">
-                            {JSON.stringify([{
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": `Solo ${category ? category : ""}`,
-                                "image": "https://vpsbazaar.cloud/img/og-image.webp",
-                                "description": "سرور مجازی Flex با 1 هسته CPU، 2 گیگابایت RAM، 30 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
-                                "sku": `solo ${category ? category : ""}`,
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "VPSBazaar"
-                                },
-                                "offers": {
-                                    "@type": "Offer",
-                                    "url": "https://vpsbazaar.cloud/vps",
-                                    "priceCurrency": "IRR",
-                                    "price": "2590000",
-                                    "itemCondition": "https://schema.org/NewCondition",
-                                    "availability": "https://schema.org/InStock",
-                                    "seller": {
-                                        "@type": "Organization",
+                            {JSON.stringify([
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": `Solo ${category ? category : ""}`,
+                                    "image": "https://vpsbazaar.cloud/img/og-image.webp",
+                                    "description": "سرور مجازی Flex با 1 هسته CPU، 2 گیگابایت RAM، 30 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
+                                    "sku": `solo ${category ? category : ""}`,
+                                    "brand": {
+                                        "@type": "Brand",
                                         "name": "VPSBazaar"
+                                    },
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "url": "https://vpsbazaar.cloud/vps",
+                                        "priceCurrency": "IRR",
+                                        "price": "2590000",
+                                        "itemCondition": "https://schema.org/NewCondition",
+                                        "availability": "https://schema.org/InStock",
+                                        "seller": {
+                                            "@type": "Organization",
+                                            "name": "VPSBazaar"
+                                        },
+                                        "shippingDetails": {
+                                            "@type": "OfferShippingDetails",
+                                            "shippingRate": {
+                                                "@type": "MonetaryAmount",
+                                                "value": "0",
+                                                "currency": "IRR"
+                                            },
+                                            "deliveryTime": {
+                                                "@type": "ShippingDeliveryTime",
+                                                "handlingTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                },
+                                                "transitTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                }
+                                            }
+                                        },
+                                        "hasMerchantReturnPolicy": {
+                                            "@type": "MerchantReturnPolicy",
+                                            "applicableCountry": "IR",
+                                            "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+                                        }
                                     }
-                                }
-                            }, {
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": `Pro ${category ? category : ""}`,
-                                "image": "https://vpsbazaar.cloud/img/og-image.webp",
-                                "description": "سرور مجازی Flex با 2 هسته CPU، 4 گیگابایت RAM، 40 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
-                                "sku": "pro",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "VPSBazaar"
-                                },
-                                "offers": {
-                                    "@type": "Offer",
-                                    "url": "https://vpsbazaar.cloud/vps",
-                                    "priceCurrency": "IRR",
-                                    "price": "3990000",
-                                    "itemCondition": "https://schema.org/NewCondition",
-                                    "availability": "https://schema.org/InStock",
-                                    "seller": {
-                                        "@type": "Organization",
+                                }, {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": `Pro ${category ? category : ""}`,
+                                    "image": "https://vpsbazaar.cloud/img/og-image.webp",
+                                    "description": "سرور مجازی Flex با 2 هسته CPU، 4 گیگابایت RAM، 40 گیگابایت SSD، 100 گیگابایت ترافیک ماهانه، لوکیشن ایران و پشتیبانی رایگان.",
+                                    "sku": "pro",
+                                    "brand": {
+                                        "@type": "Brand",
                                         "name": "VPSBazaar"
+                                    },
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "url": "https://vpsbazaar.cloud/vps",
+                                        "priceCurrency": "IRR",
+                                        "price": "3990000",
+                                        "itemCondition": "https://schema.org/NewCondition",
+                                        "availability": "https://schema.org/InStock",
+                                        "seller": {
+                                            "@type": "Organization",
+                                            "name": "VPSBazaar"
+                                        },
+                                        "shippingDetails": {
+                                            "@type": "OfferShippingDetails",
+                                            "shippingRate": {
+                                                "@type": "MonetaryAmount",
+                                                "value": "0",
+                                                "currency": "IRR"
+                                            },
+                                            "deliveryTime": {
+                                                "@type": "ShippingDeliveryTime",
+                                                "handlingTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                },
+                                                "transitTime": {
+                                                    "@type": "QuantitativeValue",
+                                                    "minValue": 0,
+                                                    "maxValue": 0,
+                                                    "unitCode": "d"
+                                                }
+                                            }
+                                        },
+                                        "hasMerchantReturnPolicy": {
+                                            "@type": "MerchantReturnPolicy",
+                                            "applicableCountry": "IR",
+                                            "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+                                        }
                                     }
-                                }
-                            }])}
+                                }])}
                         </Script>
                     </>
                 )
@@ -386,6 +783,34 @@ const ProductSchema = ({ category }: { category: string }) => {
                                     "seller": {
                                         "@type": "Organization",
                                         "name": "VPSBazaar"
+                                    },
+                                    "shippingDetails": {
+                                        "@type": "OfferShippingDetails",
+                                        "shippingRate": {
+                                            "@type": "MonetaryAmount",
+                                            "value": "0",
+                                            "currency": "IRR"
+                                        },
+                                        "deliveryTime": {
+                                            "@type": "ShippingDeliveryTime",
+                                            "handlingTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            },
+                                            "transitTime": {
+                                                "@type": "QuantitativeValue",
+                                                "minValue": 0,
+                                                "maxValue": 0,
+                                                "unitCode": "d"
+                                            }
+                                        }
+                                    },
+                                    "hasMerchantReturnPolicy": {
+                                        "@type": "MerchantReturnPolicy",
+                                        "applicableCountry": "IR",
+                                        "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
                                     }
                                 }
                             }, {
@@ -409,7 +834,36 @@ const ProductSchema = ({ category }: { category: string }) => {
                                     "seller": {
                                         "@type": "Organization",
                                         "name": "VPSBazaar"
-                                    }
+                                    },
+                                    "shippingDetails": {
+  "@type": "OfferShippingDetails",
+  "shippingRate": {
+    "@type": "MonetaryAmount",
+    "value": "0",
+    "currency": "IRR"
+  },
+  "deliveryTime": {
+    "@type": "ShippingDeliveryTime",
+    "handlingTime": {
+      "@type": "QuantitativeValue",
+      "minValue": 0,
+      "maxValue": 0,
+      "unitCode": "d"
+    },
+    "transitTime": {
+      "@type": "QuantitativeValue",
+      "minValue": 0,
+      "maxValue": 0,
+      "unitCode": "d"
+    }
+  }
+},
+"hasMerchantReturnPolicy": {
+  "@type": "MerchantReturnPolicy",
+  "applicableCountry": "IR",
+  "returnPolicyCategory": "http://schema.org/MerchantReturnNotPermitted"
+}
+
                                 }
                             }, {
                                 "@context": "https://schema.org",
@@ -512,7 +966,7 @@ const ProductSchema = ({ category }: { category: string }) => {
                                         "name": "VPSBazaar"
                                     }
                                 }
-                            },{
+                            }, {
                                 "@context": "https://schema.org",
                                 "@type": "Product",
                                 "name": `Ultra ${category ? category : ""}`,

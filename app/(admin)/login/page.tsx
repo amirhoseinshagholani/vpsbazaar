@@ -50,7 +50,7 @@ const Login = () => {
         <>
             <div className="bg-white h-screen text-black flex items-center justify-center p-5 md:p-0">
                 <div className="bg-slate-300 shadow-lg w-[400px] h-fit rounded-2xl">
-                    <div className="mx-auto bg-slate-300  w-100 h-fit p-5 rounded-2xl">
+                    <div className="mx-auto bg-slate-300  w-96 h-fit p-5 rounded-2xl">
                         <div className="flex mt-5" id="logo">
                             <Image className="mx-auto rounded-lg" src={logo} alt="logo" width={100} height={100} />
                         </div>

@@ -124,27 +124,27 @@ const Panel = () => {
           <div className="p-2 md:p-10 vazirfont-medium text-sm">
             <div className="grid grid-cols-12 gap-3 w-full mx-auto  p-3 md:p-0 rounded-2xl grid grid-cols-12 gap-3">
               
-              <div className="col-span-6">
+              <div className="col-span-12 md:col-span-6">
 
                 <div className="justify-between gap-2 col-span-12 md:col-span-3">
                   <label className="flex items-center text-nowrap">تعداد کاربران: </label>
-                  <input className="bg-slate-100 h-5 p-5 pr-3 w-70 rounded-xl items-center" type="text" value={`${countUsers} نفر`} readOnly />
+                  <input className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-70 rounded-xl items-center" type="text" value={`${countUsers} نفر`} readOnly />
                 </div>
                 <div className="col-span-6 justify-between gap-2 col-span-12 md:col-span-3 mt-3">
                   <label className="flex items-center text-nowrap">تعداد کل سفارشات: </label>
-                  <input className="bg-slate-100 h-5 p-5 pr-3 w-70 rounded-xl items-center" type="text" value={`${countOrders}`} readOnly />
+                  <input className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-70 rounded-xl items-center" type="text" value={`${countOrders}`} readOnly />
                 </div>
 
               </div>
-              <div className="col-span-6">
+              <div className="col-span-12  md:col-span-6">
 
                 <div className="col-span-6 justify-between gap-2 col-span-12 md:col-span-3">
                   <label className="flex items-center text-nowrap">تعداد سفارشات فعال: </label>
-                  <input className="bg-slate-100 h-5 p-5 pr-3 w-70 rounded-xl items-center" type="text" value={`${countActiveOrders}`} readOnly />
+                  <input className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-70 rounded-xl items-center" type="text" value={`${countActiveOrders}`} readOnly />
                 </div>
                 <div className="col-span-6 justify-between gap-2 col-span-12 md:col-span-3 mt-3">
                   <label className="flex items-center text-nowrap">تعداد سفارشات درانتظار: </label>
-                  <input className="bg-slate-100 h-5 p-5 pr-3 w-70 rounded-xl items-center" type="text" value={`${countPendingOrders}`} readOnly />
+                  <input className="bg-slate-100 h-5 p-5 pr-3 w-full md:w-70 rounded-xl items-center" type="text" value={`${countPendingOrders}`} readOnly />
                 </div>
 
               </div>
